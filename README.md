@@ -16,3 +16,7 @@ Ders içeriği 13 hafta ders, 1 hafta telafi dersi ve 1 hafta ara sınav ve 1 ha
 * **10. hafta:** Sunucu kurulumu, (PHP & Ajax & Jquery) örneği
 * **11. hafta:** PHP giriş, temel php programlama, dizi, koşul, döngü, GET, POST
 * **12. hafta:** PHP Form, Veritabanı
+* **13. hafta:** MySQL Veritabanı, örnek uygulama
+* **14. hafta:** MVC, Laravel kurulum, örnek uygulama
+* **15. hafta:** Telafi haftası, ödev kontrolleri
+* **16. hafta:** Final haftası
