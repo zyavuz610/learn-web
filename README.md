@@ -23,10 +23,17 @@ Ders içeriği 13 hafta ders, 1 hafta telafi dersi ve 1 hafta ara sınav ve 1 ha
 
 ## Kaynaklar
 ### HTML
+* https://www.sololearn.com/Course/HTML/
+* https://www.w3schools.com/html/default.asp
 
 ### CSS
+* https://www.sololearn.com/Course/CSS/
+* https://www.w3schools.com/css/default.asp
 
 ### Javascript (JS)
+* https://www.sololearn.com/Course/JavaScript/
+* https://www.w3schools.com/js/default.asp
 
 ### PHP
-* 
+* https://www.sololearn.com/Course/PHP/
+* https://www.w3schools.com/php7/default.asp
