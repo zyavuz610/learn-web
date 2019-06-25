@@ -22,6 +22,8 @@ Ders içeriği 13 hafta ders, 1 hafta telafi dersi ve 1 hafta ara sınav ve 1 ha
 * **16. hafta:** Final haftası
 
 ## Kaynaklar
+* https://courses.cs.washington.edu/courses/cse154/15sp/lectures.shtml#today 
+
 ### HTML
 * https://www.sololearn.com/Course/HTML/
 * https://www.w3schools.com/html/default.asp
