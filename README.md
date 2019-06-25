@@ -33,6 +33,7 @@ Ders içeriği 13 hafta ders, 1 hafta telafi dersi ve 1 hafta ara sınav ve 1 ha
 ### Javascript (JS)
 * https://www.sololearn.com/Course/JavaScript/
 * https://www.w3schools.com/js/default.asp
+* https://seyler.eksisozluk.com/insana-kod-yazdirmayi-sevdiren-programlama-dili-javascripte-yeni-baslayacaklara-tavsiyeler
 
 ### PHP
 * https://www.sololearn.com/Course/PHP/
