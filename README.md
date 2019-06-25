@@ -20,3 +20,13 @@ Ders içeriği 13 hafta ders, 1 hafta telafi dersi ve 1 hafta ara sınav ve 1 ha
 * **14. hafta:** MVC, Laravel kurulum, örnek uygulama
 * **15. hafta:** Telafi haftası, ödev kontrolleri
 * **16. hafta:** Final haftası
+
+## Kaynaklar
+### HTML
+
+### CSS
+
+### Javascript (JS)
+
+### PHP
+* 
