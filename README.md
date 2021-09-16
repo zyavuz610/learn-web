@@ -1,4 +1,4 @@
-# Wep Programlama
+# Wep/İnternet Programlama
 ## Dönem İçeriği
 Bu belge, Bilgisayar Mühendisliği Bölümlerinde Web Programlama ve benzeri isimlerle verilen ders içeriklerini ve kaynakları sunmak amacıyla hazırlanmıştır. 
 
