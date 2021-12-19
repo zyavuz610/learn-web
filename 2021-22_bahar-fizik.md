@@ -6,7 +6,7 @@ Bu sayfa, Karadeniz Teknik Üniversitesi'nde **Fizik** bölümünde verilen **we
 Temel seviye HTML, CSS ve JS dilleri esas alınarak hazırlanmıştır.
 
 Ders içeriği ve temel kaynaklar KTÜ [**Ders Bilgi Paketi**][bilgi-paketi] esas alınarak hazıranmıştır.
-
+* Fen Fakültesi/Fizik Bölümü/BIL3002-Web Programlama - 3+0+0, AKTS:4
 ---
 
 # 2021-22 Bahar Yarıyılı Ders İçeriği
