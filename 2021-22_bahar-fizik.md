@@ -1,7 +1,7 @@
 # Web/İnternet Tabanlı Programlama
 
 
-Bu sayfa, Karadeniz Teknik Üniversitesi'nde Fizik bölümlerde verilen **web/internet programlama** derslerindeki içerikleri sunmak için hazırlanmıştır.
+Bu sayfa, Karadeniz Teknik Üniversitesi'nde **Fizik** bölümünde verilen **web/internet programlama** derslerindeki içerikleri sunmak için hazırlanmıştır.
 
 Temel seviye HTML, CSS ve JS dilleri esas alınarak hazırlanmıştır.
 
