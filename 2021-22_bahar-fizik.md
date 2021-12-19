@@ -9,14 +9,14 @@ Ders içeriği ve temel kaynaklar KTÜ [**Ders Bilgi Paketi**][bilgi-paketi] esa
 
 ---
 
-# 2021-22 Güz Yarıyılı Ders İçeriği
+# 2021-22 Bahar Yarıyılı Ders İçeriği
 
 ## Yoklama ve Derslere Devam Durumu
-Dersin yüz yüze ve çevrimiçi şubeler şeklinde verilmektedir. Öğrencinin dersi verimli bir şekilde öğrenmesi için derse devam sorumluluğunu yerine getirmesi beklenir. Bu nedenle öğrencinin yüzyüze ya da çevrim içi dersler ile paylaşılan ders materyallerini takip etmesi önerilir. 
+Ders, yüz yüze veya çevrimiçi şubeler şeklinde verilmektedir. Öğrencinin dersi verimli bir şekilde öğrenmesi için derse devam sorumluluğunu yerine getirmesi beklenir. Bu nedenle öğrencinin yüzyüze ya da çevrimiçi dersler ile paylaşılan ders materyallerini takip etmesi önerilir. 
 
-**_Çevrim içi dersler ile yüzyüze dersler tamamen aynı içeriğe sahiptir._**
+**_Çevrimiçi dersler ile yüzyüze dersler tamamen aynı içeriğe sahiptir._**
 
-* [2021-22 Güz Yarıyılı Yoklama Listesi][yklm21b]
+* [2021-22 Bahar Yarıyılı Yoklama Listesi][yoklama]
 
 ---
 
@@ -45,3 +45,4 @@ Ders içeriği 14 hafta ders, 1 hafta ara sınav ve 1 hafta final olmak üzere 1
 
 
 [bilgi-paketi]: http://www.katalog.ktu.edu.tr/DersBilgiPaketi/course.aspx?pid=14&lang=1&dbid=566282
+[yoklama]: #
