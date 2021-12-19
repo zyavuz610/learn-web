@@ -38,8 +38,8 @@ Ders içeriği 14 hafta ders, 1 hafta ara sınav ve 1 hafta final olmak üzere 1
 | 11    | Java script dilinin yapısı  | |
 | 12    | Java script dilinin yapısı |   |
 | 13    | HTML Formları     |   |
-| 14    | __CSS framework kullanımı__   |   |
-| 15    | __Örnek proje - Ödev değerlendirmesi__  |   |
+| 14    | _CSS framework kullanımı_   |   |
+| 15    | _Örnek proje - Ödev değerlendirmesi_  |   |
 | 16    | Final Sınavı                                                  | Teorik sınav yapılacak  |
 
 
