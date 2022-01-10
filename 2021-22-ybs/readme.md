@@ -9,22 +9,31 @@ Ders içeriği HTML, CSS ve JS dilleri esas alınarak hazırlanmıştır.
 Ders içeriği ve temel kaynaklar KTÜ [**Ders Bilgi Paketi**][bilgi-paketi] esas alınarak hazıranmıştır.
 * İKTİSADİ VE İDARİ BİLİMLER FAKÜLTESİ / YÖNETİM BİLİŞİM SİSTEMLERİ BÖLÜMÜ / ( I. ÖĞRETİM)/YBS2004	Web Tasarımı	2+1+0	AKTS:4
 
-* **1. hafta:** Web programlamaya giriş, url, HTML giriş
-* **2. hafta:** HTML etiketleri, etiket özellikleri
-* **3. hafta:** CSS, söz dizimi, selectors 
-* **4. hafta:** HTML ve CSS ile örnek bir web sayfası yapımı
-* **5. hafta:** Javascript söz dizimi, değişken, koşul, döngü (for, while, foreach), fonksiyonlar
-* **6. hafta:** JS, dizi, nesne, olay, olay dinleyici
-* **7. hafta:** JS Document Object Model(DOM), Browser Object Model(BOM)
-* **8. hafta:** Ajax tekniği, Jquery örnek
-* **9. hafta:** Arasınav haftası
-* **10. hafta:** Sunucu kurulumu, (PHP & Ajax & Jquery) örneği
-* **11. hafta:** PHP giriş, temel php programlama, dizi, koşul, döngü, GET, POST
-* **12. hafta:** PHP Form, Veritabanı
-* **13. hafta:** MySQL Veritabanı, örnek uygulama
-* **14. hafta:** MVC, Laravel kurulum, örnek uygulama
-* **15. hafta:** Telafi haftası, ödev kontrolleri
-* **16. hafta:** Final haftası
+---
+
+## Haftalık Ders İçeriği
+Ders içeriği 14 hafta ders, 1 hafta ara sınav ve 1 hafta final olmak üzere 16 hafta olarak planlanmıştır.
+
+| Hafta | Ders İçeriği                                       | Kaynak ve Açıklamalar   |
+| :-- | :--                                                  | :--    |
+| 1     | Web Teknolojileri, Web sayfası ve HTML dilinin yapısı   |  |
+| 2     | HTML-Temel Taglar, HTML etiketleri, etiket özellikleri       |  |
+| 3     | HTML-Metin (paragraf, başlık, liste) ve Tablolarla Çalışma         |  |
+| 4     | HTML-Medyalarla Çalışma (image, video, audio)   |   |
+| 5     | HTML-Formlarla Çalışma   |   |
+| 6     | HTML5-API'ler                     |  |
+| 7     | CSS'nin Temelleri      |   |
+| 8     | CSS Metinlerle Çalışma    |  |
+| 9     | Ara sınav                                                     | Ödev  |
+| 10    | CSS kutularla çalışma     |  |
+| 11    | JavaScriptin temelleri  | |
+| 12    | JavaScript Olaylar |   |
+| 13    | JavaScript Veri Türleri ve Diziler     |   |
+| 14    | JavaScript ve HTML DOM   |   |
+| 15    | JavaScript ve AJAX  |   |
+| 16    | Final Sınavı                                                  | Teorik sınav yapılacak  |
+
+---
 
 ## Kaynaklar
 * https://courses.cs.washington.edu/courses/cse154/15sp/lectures.shtml#today 
