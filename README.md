@@ -1,5 +1,5 @@
 # Web Programlama
-Bu depo web programlamanın temeli olan HTML, CSS ve Javascript dillerini öğretme amacıyla oluşturulmuştur.
+Bu depo Karadeniz Teknik Üniversitesinde verilen çeşitli derslerde web programlamanın temeli olan HTML, CSS ve Javascript dillerini öğretme amacıyla oluşturulmuştur.
 
 ---
 
