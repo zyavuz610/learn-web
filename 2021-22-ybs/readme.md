@@ -1,8 +1,13 @@
-# Wep/İnternet Programlama
+# Wep Tasarımı
 ## Dönem İçeriği
-Bu belge, Bilgisayar Mühendisliği Bölümlerinde Web Programlama ve benzeri isimlerle verilen ders içeriklerini ve kaynakları sunmak amacıyla hazırlanmıştır. 
+Bu belge, **Yönetim Bilişim Sistemleri Bölümü**nde Web Tasarımı ve benzeri isimlerle verilen ders içeriklerini ve kaynakları sunmak amacıyla hazırlanmıştır. 
 
-Ders içeriği 13 hafta ders, 1 hafta telafi dersi ve 1 hafta ara sınav ve 1 hafta final olmak üzere 16 hafta olarak planlanmıştır.
+Ders içeriği 14 hafta ders, 1 hafta ara sınav ve 1 hafta final olmak üzere 16 hafta olarak planlanmıştır.
+
+Ders içeriği HTML, CSS ve JS dilleri esas alınarak hazırlanmıştır.
+
+Ders içeriği ve temel kaynaklar KTÜ [**Ders Bilgi Paketi**][bilgi-paketi] esas alınarak hazıranmıştır.
+* İKTİSADİ VE İDARİ BİLİMLER FAKÜLTESİ / YÖNETİM BİLİŞİM SİSTEMLERİ BÖLÜMÜ / ( I. ÖĞRETİM)/YBS2004	Web Tasarımı	2+1+0	AKTS:4
 
 * **1. hafta:** Web programlamaya giriş, url, HTML giriş
 * **2. hafta:** HTML etiketleri, etiket özellikleri
@@ -40,3 +45,6 @@ Ders içeriği 13 hafta ders, 1 hafta telafi dersi ve 1 hafta ara sınav ve 1 ha
 ### PHP
 * https://www.sololearn.com/Course/PHP/
 * https://www.w3schools.com/php7/default.asp
+
+
+[bilgi-paketi]: http://www.katalog.ktu.edu.tr/DersBilgiPaketi/course.aspx?pid=3678&lang=1&dbid=560821
