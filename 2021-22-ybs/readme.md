@@ -18,7 +18,7 @@ Ders içeriği 14 hafta ders, 1 hafta ara sınav ve 1 hafta final olmak üzere 1
 | :-- | :--                                                  | :--    |
 | 1     | Web Teknolojileri, Web sayfası ve HTML dilinin yapısı   |  |
 | 2     | HTML-Temel Taglar, HTML etiketleri, etiket özellikleri       |  |
-| 3     | HTML-Metin (paragraf, başlık, liste) ve Tablolarla Çalışma         |  |
+| 3     | HTML-Metin (paragraf, link, başlık, liste) ve Tablolarla Çalışma         |  |
 | 4     | HTML-Medyalarla Çalışma (image, video, audio)   |   |
 | 5     | HTML-Formlarla Çalışma   |   |
 | 6     | HTML5-API'ler                     |  |
