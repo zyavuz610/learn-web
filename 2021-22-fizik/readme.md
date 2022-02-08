@@ -20,27 +20,24 @@ Ders, yüz yüze veya çevrimiçi şubeler şeklinde verilmektedir. Öğrencinin
 
 ## Haftalık Ders İçeriği
 Ders içeriği 14 hafta ders, 1 hafta ara sınav ve 1 hafta final olmak üzere 16 hafta olarak planlanmıştır.
-**Özetle** 
-* 1-8. haftalar, HTML, CSS, JS
-* 9-15. haftalar, PHP ve MySQL
 
-| Hafta | Ders İçeriği                                                  | Kaynak ve Açıklamalar   |
-| :-- | :--                                                  | :--    |
-| 1     | Web sayfası ve HTML dilinin yapısı   |  |
-| 2     | HTML Etiketler, elementler, boş elementler.       |  |
-| 3     | Linkler, dahili ve harici link oluşturma.         |  |
-| 4     | Listeler, numaralı ve numarasız listeler   |   |
-| 5     | Lokal stiller ve nitelikler   |   |
-| 6     | Tablolar                     |  |
+| Hafta | Ders İçeriği                                       | Kaynak ve Açıklamalar   |
+| :--   | :--                                                  | :--    |
+| 1     | Web sayfası nasıl çalışır? Kurulum ve HTML dilinin yapısı   |  |
+| 2     | HTML Temelleri, Etiketler, Özellikler       |  |
+| 3     | Başlık, Paragraf ve Stil Ekleme, Biçimlendirme, br, hr   |  |
+| 4     | Alıntılama, HTML Yorumları, Renkler |   |
+| 5     | HTML ve CSS  |   |
+| 6     | Link, Image, Favicon   |  |
 | 7     | Tablolar      |   |
-| 8     | CSS stil dosyası    |  |
+| 8     | Listeler, Block ve Inline Etiketler  |  |
 | 9     | Ara sınav                                                     | Ödev  |
-| 10    | ID ve class niteliği     |  |
-| 11    | Java script dilinin yapısı  | |
-| 12    | Java script dilinin yapısı |   |
-| 13    | HTML Formları     |   |
-| 14    | _CSS framework kullanımı_   |   |
-| 15    | _Örnek proje - Ödev değerlendirmesi_  |   |
+| 10    | ID ve class niteliği, iframe     |  |
+| 11    | Javascript (JS) diline giriş, Değişkenler, Operatörler,  | |
+| 12    | JS  Döngüler, Diziler |   |
+| 13    | JS Fonksiyonlar, Olaylar  |   |
+| 14    | JS DOM   |   |
+| 15    | HTML formları ve JS DOM |   |
 | 16    | Final Sınavı                                                  | Teorik sınav yapılacak  |
 
 
