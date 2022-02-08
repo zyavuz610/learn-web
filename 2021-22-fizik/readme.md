@@ -16,8 +16,6 @@ Ders, yüz yüze veya çevrimiçi şubeler şeklinde verilmektedir. Öğrencinin
 
 **_Çevrimiçi dersler ile yüzyüze dersler tamamen aynı içeriğe sahiptir._**
 
-* [2021-22 Bahar Yarıyılı Yoklama Listesi][yoklama]
-
 ---
 
 ## Haftalık Ders İçeriği
