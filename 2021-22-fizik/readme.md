@@ -20,6 +20,9 @@ Ders, yüz yüze veya çevrimiçi şubeler şeklinde verilmektedir. Öğrencinin
 
 ## Haftalık Ders İçeriği
 Ders içeriği 14 hafta ders, 1 hafta ara sınav ve 1 hafta final olmak üzere 16 hafta olarak planlanmıştır.
+**Özetle** 
+* 1-8. haftalar, HTML, CSS, JS
+* 9-15. haftalar, PHP ve MySQL
 
 | Hafta | Ders İçeriği                                                  | Kaynak ve Açıklamalar   |
 | :-- | :--                                                  | :--    |
