@@ -9,3 +9,7 @@ Bu depo Karadeniz Teknik Üniversitesinde verilen çeşitli derslerde web progra
 * 2021-22 - Bahar Yarıyılı / Fizik Bölümü - [Web Programlama](2021-22-fizik/readme.md)
 ### Geçmiş Dönemler
 * 2018-19 - Bahar Yarıyılı / Bilgisayar Mühendisliği - [Web Programlama](2018-19_ceng/readme.md)
+
+---
+## Web Tasarım için Kaynaklar
+* https://github.com/bradtraversy/vanillawebprojects
