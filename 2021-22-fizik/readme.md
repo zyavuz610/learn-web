@@ -24,9 +24,9 @@ Ders içeriği 14 hafta ders, 1 hafta ara sınav ve 1 hafta final olmak üzere 1
 | Hafta | Ders İçeriği                                       | Kaynak ve Açıklamalar   |
 | :--   | :--                                                  | :--    |
 | 1     | İşarteleme Dili, Kurulum ve HTML dilinin yapısı, Başlık ve Paragraf ekleme   | tag, headings(h1...h6), paragraf(p)  |
-| 2     | HTML formatting, quotation, yorum, link, attribute, img, listeler       |  |
-| 3     | Başlık, Paragraf ve Stil Ekleme, Biçimlendirme, br, hr   |  |
-| 4     | Alıntılama, HTML Yorumları, Renkler |   |
+| 2     | HTML formatting, quotation, yorum        |  |
+| 3     | link, attribute, listeler, br, hr   |  |
+| 4     | Renkler |   |
 | 5     | HTML ve CSS  |   |
 | 6     | Link, Image, Favicon   |  |
 | 7     | Tablolar      |   |
