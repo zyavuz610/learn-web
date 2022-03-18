@@ -16,9 +16,9 @@ Ders içeriği 14 hafta ders, 1 hafta ara sınav ve 1 hafta final olmak üzere 1
 
 | Hafta | Ders İçeriği                                       | Kaynak ve Açıklamalar   |
 | :-- | :--                                                  | :--    |
-| 1     | Web Teknolojileri, Web sayfası ve HTML dilinin yapısı, tag, headings(h1...h6), paragraf(p)   |  |
-| 2     | HTML-2, formatting, quotation, yorum, link, attribute, img, listeler        |  |
-| 3     | HTML-3  tablolar, style, renkler, basit CSS (inline,internal,external)        |  |
+| 1     | Web Teknolojileri, Web sayfası ve HTML dilinin yapısı, tag, headings(h1...h6), paragraf(p)   | [Replit][repl01], [Replit(uzem)][repl01u] |
+| 2     | HTML-2, formatting, quotation, yorum, link, attribute, img, listeler        | [Replit][repl01], [Replit(uzem)][repl01u] |
+| 3     | HTML-3  tablolar, style, renkler, basit CSS (inline,internal,external)        | [Replit][repl02], [Replit(uzem)][repl02u] |
 | 4     | HTML-Medyalarla Çalışma (image, video, audio)   |   |
 | 5     | HTML-Formlarla Çalışma   |   |
 | 6     | HTML5-API'ler                     |  |
@@ -57,3 +57,7 @@ Ders içeriği 14 hafta ders, 1 hafta ara sınav ve 1 hafta final olmak üzere 1
 
 
 [bilgi-paketi]: http://www.katalog.ktu.edu.tr/DersBilgiPaketi/course.aspx?pid=3678&lang=1&dbid=560821
+[repl01]: https://replit.com/@ZaferYavuz2/22b-ybs-wt01
+[repl01u]: https://replit.com/@ZaferYavuz2/22b-ybs-wt01u
+[repl02]: https://replit.com/@ZaferYavuz2/22b-ybs-wt02
+[repl02u]: https://replit.com/@ZaferYavuz2/22b-ybs-wt02u
