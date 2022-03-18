@@ -9,31 +9,23 @@ Ders içeriği ve temel kaynaklar KTÜ [**Ders Bilgi Paketi**][bilgi-paketi] esa
 * Fen Fakültesi/Fizik Bölümü/BIL3002-Web Programlama - 3+0+0, AKTS:4
 ---
 
-# 2021-22 Bahar Yarıyılı Ders İçeriği
-
-## Yoklama ve Derslere Devam Durumu
-Ders, yüz yüze veya çevrimiçi şubeler şeklinde verilmektedir. Öğrencinin dersi verimli bir şekilde öğrenmesi için derse devam sorumluluğunu yerine getirmesi beklenir. Bu nedenle öğrencinin yüzyüze ya da çevrimiçi dersler ile paylaşılan ders materyallerini takip etmesi önerilir. 
-
-**_Çevrimiçi dersler ile yüzyüze dersler tamamen aynı içeriğe sahiptir._**
-
----
 
 ## Haftalık Ders İçeriği
 Ders içeriği 14 hafta ders, 1 hafta ara sınav ve 1 hafta final olmak üzere 16 hafta olarak planlanmıştır.
 
 | Hafta | Ders İçeriği                                       | Kaynak ve Açıklamalar   |
 | :--   | :--                                                  | :--    |
-| 1     | Web sayfası nasıl çalışır? Kurulum ve HTML dilinin yapısı   |  |
-| 2     | HTML Temelleri, Etiketler, Özellikler       |  |
-| 3     | Başlık, Paragraf ve Stil Ekleme, Biçimlendirme, br, hr   |  |
-| 4     | Alıntılama, HTML Yorumları, Renkler |   |
-| 5     | HTML ve CSS  |   |
-| 6     | Link, Image, Favicon   |  |
-| 7     | Tablolar      |   |
-| 8     | Listeler, Block ve Inline Etiketler  |  |
+| 1     | Web sayfası nasıl çalışır? Kurulum ve HTML dilinin yapısı   | [replit][repl01] |
+| 2     | HTML Temelleri, Etiketler, Başlık, Paragraf, Biçimlendirme  | [replit][repl02] |
+| 3     | link, liste, attribute, br, hr, Alıntılama, HTML Yorumları  | [replit][repl03] |
+| 4     | Image, Tablolar |   |
+| 5     | HTML ve CSS, Renkler   |   |
+| 6     | favicon, block&inline, file path, symbol, emoji, charset, URL encode  |  |
+| 7     | ID ve class niteliği, iframe        |   |
+| 8     | CSS dili ve özellikleri |  |
 | 9     | Ara sınav                                                     | Ödev  |
-| 10    | ID ve class niteliği, iframe     |  |
-| 11    | Javascript (JS) diline giriş, Değişkenler, Operatörler,  | |
+| 10    | Javascript (JS) diline giriş, Değişkenler,  |  |
+| 11    | JS Operatörler, Koşullu İfadeler | |
 | 12    | JS  Döngüler, Diziler |   |
 | 13    | JS Fonksiyonlar, Olaylar  |   |
 | 14    | JS DOM   |   |
@@ -42,4 +34,6 @@ Ders içeriği 14 hafta ders, 1 hafta ara sınav ve 1 hafta final olmak üzere 1
 
 
 [bilgi-paketi]: http://www.katalog.ktu.edu.tr/DersBilgiPaketi/course.aspx?pid=14&lang=1&dbid=566282
-[yoklama]: #
+[repl01]: https://replit.com/@ZaferYavuz2/22b-fizik-wp01
+[repl02]: https://replit.com/@ZaferYavuz2/22b-fizik-wp02
+[repl03]: https://replit.com/@ZaferYavuz2/22b-fizik-wp03
