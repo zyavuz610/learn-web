@@ -17,9 +17,9 @@ Ders içeriği 14 hafta ders, 1 hafta ara sınav ve 1 hafta final olmak üzere 1
 | Hafta | Ders İçeriği                                       | Kaynak ve Açıklamalar   |
 | :-- | :--                                                  | :--    |
 | 1     | Web Teknolojileri, Web sayfası ve HTML dilinin yapısı, tag, headings(h1...h6), paragraf(p)   | [Replit][repl01], [Replit(uzem)][repl01u] |
-| 2     | HTML-2, formatting, quotation, yorum, link, attribute, img, listeler        | [Replit][repl01], [Replit(uzem)][repl01u] |
-| 3     | HTML-3  tablolar, style, renkler, basit CSS (inline,internal,external)        | [Replit][repl02], [Replit(uzem)][repl02u] |
-| 4     | HTML-Medyalarla Çalışma (image, video, audio)   |   |
+| 2     | HTML-2, formatting, quotation, yorum, link, attribute, listeler        | [Replit][repl01], [Replit(uzem)][repl01u] |
+| 3     | HTML-3, tablolar, style, renkler,         | [Replit][repl02], [Replit(uzem)][repl02u] |
+| 4     | HTML-4, img, basit CSS (inline,internal,external), HTML-Medyalarla Çalışma (image, video, audio)   |   |
 | 5     | HTML-Formlarla Çalışma   |   |
 | 6     | HTML5-API'ler                     |  |
 | 7     | CSS'nin Temelleri      |   |
