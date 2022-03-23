@@ -78,3 +78,16 @@ HTML Drag/Drop
 HTML Web Storage
 HTML Web Workers
 HTML SSE
+
+---
+
+## Kariyer Yol Haritası
+1. Learn basic HTML
+2. Add styling with CSS
+3. Create 2-3 simple websites
+4. Learn basic JavaScript concepts
+5. Make your websites interactive with JS
+6. Learn a framework like Vue or React
+7. Build 2-3 small apps with your framework
+8. Build a portfolio to showcase your apps and sites
+9. Start applying for jobs
