@@ -18,12 +18,12 @@ Ders içeriği 14 hafta ders, 1 hafta ara sınav ve 1 hafta final olmak üzere 1
 | 1     | Web sayfası nasıl çalışır? Kurulum ve HTML dilinin yapısı   | [replit][repl01] |
 | 2     | HTML Temelleri, Etiketler, Başlık, Paragraf, Biçimlendirme  | [replit][repl02] |
 | 3     | link, liste, attribute, br, hr, Alıntılama, HTML Yorumları  | [replit][repl03] |
-| 4     | Image, Tablolar |   |
+| 4     | Image, Tablolar | [replit][repl04]  |
 | 5     | HTML ve CSS, Renkler   |   |
 | 6     | favicon, block&inline, file path, symbol, emoji, charset, URL encode  |  |
 | 7     | ID ve class niteliği, iframe        |   |
 | 8     | CSS dili ve özellikleri |  |
-| 9     | Ara sınav                                                     | Ödev  |
+| 9     | Ara sınav                                                     | 2 adet 50 puanlık ödev (grup çalışması) |
 | 10    | Javascript (JS) diline giriş, Değişkenler,  |  |
 | 11    | JS Operatörler, Koşullu İfadeler | |
 | 12    | JS  Döngüler, Diziler |   |
@@ -37,3 +37,4 @@ Ders içeriği 14 hafta ders, 1 hafta ara sınav ve 1 hafta final olmak üzere 1
 [repl01]: https://replit.com/@ZaferYavuz2/22b-fizik-wp01
 [repl02]: https://replit.com/@ZaferYavuz2/22b-fizik-wp02
 [repl03]: https://replit.com/@ZaferYavuz2/22b-fizik-wp03
+[repl04]: https://replit.com/@ZaferYavuz2/22b-fizik-wp04
