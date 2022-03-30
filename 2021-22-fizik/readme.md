@@ -23,7 +23,7 @@ Ders içeriği 14 hafta ders, 1 hafta ara sınav ve 1 hafta final olmak üzere 1
 | 6     | favicon, block&inline, file path, symbol, emoji, charset, URL encode  |  |
 | 7     | ID ve class niteliği, iframe        |   |
 | 8     | CSS dili ve özellikleri |  |
-| 9     | Ara sınav                                                     | 2 adet 50 puanlık ödev (grup çalışması) |
+| 9     | Ara sınav                                                     | (ödev) |
 | 10    | Javascript (JS) diline giriş, Değişkenler,  |  |
 | 11    | JS Operatörler, Koşullu İfadeler | |
 | 12    | JS  Döngüler, Diziler |   |
