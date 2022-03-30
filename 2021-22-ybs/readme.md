@@ -19,13 +19,13 @@ Ders içeriği 14 hafta ders, 1 hafta ara sınav ve 1 hafta final olmak üzere 1
 | 1     | Web Teknolojileri, Web sayfası ve HTML dilinin yapısı, tag, headings(h1...h6), paragraf(p)   | [Replit][repl01], [Replit(uzem)][repl01u] |
 | 2     | HTML-2, formatting, quotation, yorum, link, attribute, listeler        | [Replit][repl01], [Replit(uzem)][repl01u] |
 | 3     | HTML-3, tablolar, style, renkler,         | [Replit][repl02], [Replit(uzem)][repl02u] |
-| 4     | HTML-4, img, basit CSS (inline,internal,external), HTML-Medyalarla Çalışma (image, video, audio)   |   |
-| 5     | HTML-Formlarla Çalışma   |   |
-| 6     | HTML5-API'ler                     |  |
-| 7     | CSS'nin Temelleri      |   |
-| 8     | CSS Metinlerle Çalışma    |  |
+| 4     | HTML-4, img, basit CSS (inline,internal,external), CSS Selectors  | [Replit][repl03], [Replit(uzem)][repl03u]  |
+| 5     | CSS Metinlerle Çalışma, background, border, margin, padding, height/width, box model (div)     | [Replit][repl04], [Replit(uzem)][repl04u], [Replit(uzem)-2][repl04u2]   |
+| 6     |  CSS kutularla çalışma         |  |
+| 7     |  HTML-Medyalarla Çalışma (image, video, audio)   |   |
+| 8     |  Web Sitesi Yayınlama ve organizasyon |  |
 | 9     | Ara sınav                                                     | Ödev  |
-| 10    | CSS kutularla çalışma     |  |
+| 10    | HTML5-API'ler  HTML-Formlarla Çalışma   |  |
 | 11    | JavaScriptin temelleri  | |
 | 12    | JavaScript Olaylar |   |
 | 13    | JavaScript Veri Türleri ve Diziler     |   |
@@ -61,3 +61,8 @@ Ders içeriği 14 hafta ders, 1 hafta ara sınav ve 1 hafta final olmak üzere 1
 [repl01u]: https://replit.com/@ZaferYavuz2/22b-ybs-wt01u
 [repl02]: https://replit.com/@ZaferYavuz2/22b-ybs-wt02
 [repl02u]: https://replit.com/@ZaferYavuz2/22b-ybs-wt02u
+[repl03]: https://replit.com/@ZaferYavuz2/22b-ybs-wt03
+[repl03u]: https://replit.com/@ZaferYavuz2/22b-ybs-wt03u
+[repl04]: https://replit.com/@ZaferYavuz2/22b-ybs-wt04
+[repl04u]: https://replit.com/@ZaferYavuz2/22b-ybs-wt04u
+[repl04u2]: https://replit.com/@ZaferYavuz2/22b-ybs-wt04u-1
