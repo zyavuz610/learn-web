@@ -21,11 +21,11 @@ Ders içeriği 14 hafta ders, 1 hafta ara sınav ve 1 hafta final olmak üzere 1
 | 3     | HTML-3, tablolar, style, renkler,         | [Replit][repl02], [Replit(uzem)][repl02u] |
 | 4     | HTML-4, img, basit CSS (inline,internal,external), CSS Selectors  | [Replit][repl03], [Replit(uzem)][repl03u]  |
 | 5     | CSS Metinlerle Çalışma, background, border, margin, padding, height/width, box model (div)     | [Replit][repl04], [Replit(uzem)][repl04u], [Replit(uzem)-2][repl04u2]   |
-| 6     |  CSS kutularla çalışma         |  |
-| 7     |  HTML-Medyalarla Çalışma (image, video, audio)   |   |
-| 8     |  Web Sitesi Yayınlama ve organizasyon |  |
+| 6     | CSS kutularla çalışma         |  |
+| 7     | CSS Görünüm Özellikleri (display, position, float özellikleri)   |   |
+| 8     | Web Sitesi Yayınlama ve organizasyon |  |
 | 9     | Ara sınav                                                     | Ödev  |
-| 10    | HTML5-API'ler  HTML-Formlarla Çalışma   |  |
+| 10    | HTML-Formlarla Çalışma   |  |
 | 11    | JavaScriptin temelleri  | |
 | 12    | JavaScript Olaylar |   |
 | 13    | JavaScript Veri Türleri ve Diziler     |   |
