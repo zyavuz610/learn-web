@@ -21,8 +21,8 @@ Ders içeriği 14 hafta ders, 1 hafta ara sınav ve 1 hafta final olmak üzere 1
 | 4     | Image, Tablolar | [replit][repl04]  |
 | 5     | HTML içeriğine CSS ekleme   | [replit][repl05]  |
 | 6     | CSS Renkler  | [replit][repl06]  |
-| 7     | ID ve class niteliği, CSS Seçiciler        |   |
-| 8     | CSS kutu modeli |  |
+| 7     | ID ve class niteliği, CSS Seçiciler        | [Youtube][youtube07]  |
+| 8     | CSS kutu modeli, Web sitesi düzeni, Web sitesi yayınlama | [Youtube][youtube08], [Youtube-web sitesi düzen oluşturma][youtube08b], [Youtube-web sitesi yayınlama][youtube08a] |
 | 9     | Ara sınav               | (ödev) |
 | 10    | Javascript (JS) diline giriş, Değişkenler,  |  |
 | 11    | JS Operatörler, Koşullu İfadeler | |
@@ -40,3 +40,7 @@ Ders içeriği 14 hafta ders, 1 hafta ara sınav ve 1 hafta final olmak üzere 1
 [repl04]: https://replit.com/@ZaferYavuz2/22b-fizik-wp04
 [repl05]: https://replit.com/@ZaferYavuz2/22b-fizik-wp05#index.html
 [repl06]: https://replit.com/@ZaferYavuz2/22b-fizik-wp06#index.html
+[youtube07]: https://www.youtube.com/watch?v=xoZWAnelNBA&list=PLqiHvxGteAQdORohAT2VaFPyp2uVqqBPj&index=4
+[youtube08]: https://www.youtube.com/watch?v=0ogD4GQEHfs&list=PLqiHvxGteAQdORohAT2VaFPyp2uVqqBPj&index=9
+[youtube08a]: https://www.youtube.com/watch?v=huNydZgcQP8&list=PLqiHvxGteAQdORohAT2VaFPyp2uVqqBPj&index=18
+[youtube08b]: https://www.youtube.com/watch?v=huNydZgcQP8&list=PLqiHvxGteAQdORohAT2VaFPyp2uVqqBPj&index=19
