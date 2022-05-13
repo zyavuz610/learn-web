@@ -27,10 +27,10 @@ Ders içeriği 14 hafta ders, 1 hafta ara sınav ve 1 hafta final olmak üzere 1
 | 9     | Ara sınav                                                     | Ödev  |
 | 10    | HTML-Formlarla Çalışma   |  |
 | 11    | JavaScriptin temelleri  | |
-| 12    | JavaScript Olaylar |   |
-| 13    | JavaScript Veri Türleri ve Diziler     |   |
-| 14    | JavaScript ve HTML DOM   |   |
-| 15    | JavaScript ve AJAX  |   |
+| 12    | JavaScript Veri Türleri ve Diziler     |   |
+| 13    | JavaScript Olaylar |   |
+| 14    | JavaScript ve HTML DOM, Animasyon   |   |
+| 15    | JSON, JavaScript ve AJAX  |   |
 | 16    | Final Sınavı                                                  | Teorik sınav yapılacak  |
 
 ---
