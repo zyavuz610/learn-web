@@ -15,7 +15,7 @@ Ders içeriği ve temel kaynaklar KTÜ [**Ders Bilgi Paketi**][bilgi-paketi] esa
 Ders içeriği 14 hafta ders, 1 hafta ara sınav ve 1 hafta final olmak üzere 16 hafta olarak planlanmıştır.
 
 | Hafta | Ders İçeriği                                       | Kaynak ve Açıklamalar   |
-| | | (CC Bilgi Kartları)(https://github.com/mrtozn1923/365PostsIn365Days-Linkedin)|
+| | | (CC Bilgi Kartları)[https://github.com/mrtozn1923/365PostsIn365Days-Linkedin]|
 | :-- | :--                                                  | :--    |
 | 1     | Web Teknolojileri, Web sayfası ve HTML dilinin yapısı, tag, headings(h1...h6), paragraf(p)   | [Replit][repl01], [Replit(uzem)][repl01u] |
 | 2     | HTML-2, formatting, quotation, yorum, link, attribute, listeler        | [Replit][repl01], [Replit(uzem)][repl01u] |
