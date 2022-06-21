@@ -32,7 +32,7 @@ Ders içeriği 14 hafta ders, 1 hafta ara sınav ve 1 hafta final olmak üzere 1
 | 13    | JavaScript Olaylar |   |
 | 14    | JavaScript ve HTML DOM, Animasyon   |   |
 | 15    | JSON, JavaScript ve AJAX  |   |
-| 16    | Final Sınavı                                                  | Teorik sınav yapılacak  |
+| 16    | [Final Sınavı][final-cevap]                                                  | Teorik sınav yapılacak  |
 
 ---
 
@@ -67,3 +67,4 @@ Ders içeriği 14 hafta ders, 1 hafta ara sınav ve 1 hafta final olmak üzere 1
 [repl04]: https://replit.com/@ZaferYavuz2/22b-ybs-wt04
 [repl04u]: https://replit.com/@ZaferYavuz2/22b-ybs-wt04u
 [repl04u2]: https://replit.com/@ZaferYavuz2/22b-ybs-wt04u-1
+[final-cevap]: 2021-22-ybs\21-22-s_Final_Sorular-Web-Tasarım.pdf
