@@ -1,5 +1,5 @@
 # Bilgisayar Mühendisliği
-## Web Programlama (2021-22 Bahar Dönemi)
+## Web Programlama (2022-23 Bahar Dönemi)
 
 Bu depo, Karadeniz Teknik Üniversitesi Bilgisayar Mühendisliği Bölümünde verilen **Web Programlama** derslerindeki içerikleri sunmak için hazırlanmıştır.
 
@@ -11,6 +11,8 @@ Ders içeriği ve temel kaynaklar KTÜ [**Ders Bilgi Paketi**](http://www.katalo
 
 ## Haftalık Ders İçeriği
 Ders içeriği 14 hafta ders, 1 hafta ara sınav ve 1 hafta final olmak üzere 16 hafta olarak planlanmıştır.
+
+
 
 | Hafta | Ders İçeriği                                                  | Açıklamalar | Kaynak Kodlar  |
 | :-- | :--                                                  | :--    | :--    |

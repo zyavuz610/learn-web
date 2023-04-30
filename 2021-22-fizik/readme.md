@@ -13,6 +13,8 @@ Ders içeriği ve temel kaynaklar KTÜ [**Ders Bilgi Paketi**][bilgi-paketi] esa
 ## Haftalık Ders İçeriği
 Ders içeriği 14 hafta ders, 1 hafta ara sınav ve 1 hafta final olmak üzere 16 hafta olarak planlanmıştır.
 
+Ders içeriği her hafta için ayrı bir sayfada sunulmuştur. Her hafta için ayrı bir replit projesi oluşturulmuştur. Replit projesi içerisinde ders içeriği ile ilgili örnekler ve açıklamalar yer almaktadır.
+
 | Hafta | Ders İçeriği                                       | Kaynak ve Açıklamalar   |
 | :--   | :--                                                  | :--    |
 | 1     | Web sayfası nasıl çalışır? Kurulum ve HTML dilinin yapısı   | [replit][repl01] |
@@ -23,7 +25,7 @@ Ders içeriği 14 hafta ders, 1 hafta ara sınav ve 1 hafta final olmak üzere 1
 | 6     | CSS Renkler  | [replit][repl06]  |
 | 7     | ID ve class niteliği, CSS Seçiciler        | [Youtube][youtube07]  |
 | 8     | CSS kutu modeli, Web sitesi düzeni, Web sitesi yayınlama | [Youtube][youtube08], [Youtube-web sitesi düzen oluşturma][youtube08b], [Youtube-web sitesi yayınlama][youtube08a] |
-| 9     | Ara sınav               | (ödev) |
+| 9     | Ara sınav               | (ödev+arasınav) |
 | 10    | Javascript (JS) diline giriş, Değişkenler,  |  |
 | 11    | JS Operatörler, Koşullu İfadeler | |
 | 12    | JS  Döngüler, Diziler |   |
