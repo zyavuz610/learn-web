@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kare Bulma Oyunu</title>
+</head>
+<body>
+    <h1>Kare Bulma Oyunu</h1>
+    <p id="question"></p>
+    <input type="number" id="answer" placeholder="Cevabınızı girin">
+    <button onclick="checkAnswer()">Cevapla</button> <br>
+    <textarea id="result" rows="10" cols="50" readonly></textarea>
+
+    <script>
+        let randomNumber;
+
+        // Yeni soru oluşturma fonksiyonu
+        function generateQuestion() {
+            randomNumber = Math.floor(Math.random() * 30) + 1;
+            document.getElementById("question").innerText = randomNumber + " x " + randomNumber + " nedir?";
+            document.getElementById("answer").value = ""; // Cevap alanını sıfırla
+        }
+
+        // İlk soruyu oluştur
+        generateQuestion();
+
+        // Cevabı kontrol eden fonksiyon
+        function checkAnswer() {
+            let userAnswer = parseInt(document.getElementById("answer").value);
+            let correctAnswer = randomNumber * randomNumber;
+            let resultElement = document.getElementById("result");
+
+            if (userAnswer === correctAnswer) {
+                resultElement.value = "Tebrikler! Doğru cevap.\n" + resultElement.value;
+            } else {
+                resultElement.value = "Yanlış cevap. Doğru cevap: " + correctAnswer + "\n" + resultElement.value;
+            }
+
+            // Yeni bir soru oluştur
+            generateQuestion();
+        }
+                // Enter tuşuna basıldığında checkAnswer fonksiyonunu çağır
+        document.getElementById("answer").addEventListener("keydown", function(event) {
+            if (event.key === "Enter") {
+                checkAnswer();
+            }
+        });
+    </script>
+</body>
+</html>
+
