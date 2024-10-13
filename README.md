@@ -7,9 +7,12 @@ Bu depo Karadeniz Teknik Üniversitesinde verilen çeşitli derslerde web progra
 Aşağıda Web/İnternet Programlama dersi içerikleri yer almaktadır. Ders içerikleri dönem dönem güncellenmektedir. Ders içeriklerine ait örnekler ve uygulamalar için ilgili dönem klasörlerine bakınız.
 
 ### Güncel
+* 2024-25 - Bahar Yarıyılı / Bilgisayar Mühendisliği - _yakında_
+
+### Geçmiş Dönemler
+* 2023-24 - Bahar Yarıyılı / Fizik Bölümü - [2023 Web Programlama sayfasını ziyaret edebilirsiniz.](2022-23-fizik/readme.md)
 * 2022-23 - Bahar Yarıyılı / Bilgisayar Mühendisliği - [Web Programlama](2022-23_ceng/readme.md)
 * 2022-23 - Bahar Yarıyılı / Fizik Bölümü - [Web Programlama](2022-23-fizik/readme.md)
-### Geçmiş Dönemler
 * 2021-22 - Bahar Yarıyılı / Yönetim Bilişim Sistemleri Bölümü - [Web Tasarımı](2021-22-ybs/readme.md)
 * 2021-22 - Bahar Yarılı / Bilgisayar Mühendisliği - [Web Programlama](2021-22_ceng/readme.md)
 * 2021-22 - Bahar Yarıyılı / Fizik Bölümü - [Web Programlama](2021-22-fizik/readme.md)
