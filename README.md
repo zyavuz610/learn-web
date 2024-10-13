@@ -109,6 +109,6 @@ Aşağıda Web/İnternet Programlama dersi içerikleri yer almaktadır. Ders iç
 * NoSQL bir veritabanı (MongoDB, Firebase)
 * 2-3 uygulama geliştirin ve yayınlayın.
 
-Not: Yukarıdaki adımların bir kısmını yaptıktan sonra da uygun kariyer fırsatlarını değerlendirin, ancak gelişiminizi sürekli devam ettirin.
+**Not:** Yukarıdaki adımların bir kısmını yaptıktan sonra da uygun kariyer fırsatlarını değerlendirin, ancak gelişiminizi sürekli devam ettirin.
 
 ---
