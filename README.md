@@ -87,9 +87,9 @@ Aşağıda Web/İnternet Programlama dersi içerikleri yer almaktadır. Ders iç
 ---
 
 ## Kariyer Yol Haritası
-1. Learn basic HTML
-2. Add styling with CSS
-3. Create 2-3 simple websites
+1. Basit HTML etiketlerini ve web sayfalarının yapısını öğren.
+2. CSS temellerini öğren ve web sayfasına basit CSS kuralları ekle.
+3. 2-3 adet örnek web sitesi oluştur ve yayınla.
 4. Learn basic JavaScript concepts
 5. Make your websites interactive with JS
 6. Learn a framework like Vue or React
