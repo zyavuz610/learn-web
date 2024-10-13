@@ -86,7 +86,7 @@ Aşağıda Web/İnternet Programlama dersi içerikleri yer almaktadır. Ders iç
 
 ---
 
-## Kariyer Yol Haritası
+## Kariyer Yol Haritası (Önyüz Geliştirici)
 1. Basit HTML etiketlerini ve web sayfalarının yapısını öğren.
 2. CSS temellerini öğren ve web sayfasına basit CSS kuralları ekle.
 3. 2-3 adet örnek web sitesi oluştur ve yayınla.
@@ -96,6 +96,17 @@ Aşağıda Web/İnternet Programlama dersi içerikleri yer almaktadır. Ders iç
 7. Seçtiğiniz ve öğrendiğiniz framework ile 2-3 uygulama geliştirin.
 8. Uygulamalarınızı ve yeteneklerinizi Github, Linkedin gibi platformlara ekleyin, portfolyo (CV) oluşturun.
 9. Yenek ve ilgi alanlarınıza uygun iş başvurusunda bulunun.
+10. Opsiyonel (Arkauç - Backend)
+   * PHP, ASP.NET (C#), Python, Node.JS gibi arkauç bir wen geliştirme teknolojisi öğrenin.
+   * Öğrendiğiniz dil ile çalışan bir framework öğrenin.
+     * PHP için, laravel, codeignitor
+     * ASP.NET (C#) için MVC
+     * Python için Flask, Django
+     * Javascript için Node.JS
+   * Veritabanı öğrenin
+    * SQL dili ve ilişkisel bir veritabanı (MS-SQL, MySQL, PostgreSQL, Oracle)
+    * NoSQL bir veritabanı (MongoDB, Firebase)
+   * 2-3 uygulama geliştirin ve yayınlayın.
 
 Not: Yukarıdaki adımların bir kısmını yaptıktan sonra da uygun kariyer fırsatlarını değerlendirin, ancak gelişiminizi sürekli devam ettirin.
 
