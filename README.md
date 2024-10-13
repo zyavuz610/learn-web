@@ -90,9 +90,13 @@ Aşağıda Web/İnternet Programlama dersi içerikleri yer almaktadır. Ders iç
 1. Basit HTML etiketlerini ve web sayfalarının yapısını öğren.
 2. CSS temellerini öğren ve web sayfasına basit CSS kuralları ekle.
 3. 2-3 adet örnek web sitesi oluştur ve yayınla.
-4. Learn basic JavaScript concepts
-5. Make your websites interactive with JS
-6. Learn a framework like Vue or React
-7. Build 2-3 small apps with your framework
-8. Build a portfolio to showcase your apps and sites
-9. Start applying for jobs
+4. Temel Javascript programlama öğrenin.
+5. Web sayfalarınızı Javascript dili ile interaktif hale getirin.
+6. Vue, React veya Angular gibi bir framework öğrenin.
+7. Seçtiğiniz ve öğrendiğiniz framework ile 2-3 uygulama geliştirin.
+8. Uygulamalarınızı ve yeteneklerinizi Github, Linkedin gibi platformlara ekleyin, portfolyo (CV) oluşturun.
+9. Yenek ve ilgi alanlarınıza uygun iş başvurusunda bulunun.
+
+Not: Yukarıdaki adımların bir kısmını yaptıktan sonra da uygun kariyer fırsatlarını değerlendirin, ancak gelişiminizi sürekli devam ettirin.
+
+---
