@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        function Person(name,surname,birthYear){
+            this.name = name;
+            this.surname = surname;
+            this.birthYear = birthYear;
+            this.getAge = function(){
+                return new Date().getFullYear() - this.birthYear;
+            }
+            this.display = function(){
+                console.log(this.name + " " + this.surname + " " + this.getAge());
+            }
+        }
+        let ali = new Person("Ali","Yılmaz",2004);
+        let veli = new Person("Veli","Kara",1999);
+        console.log(ali.name);
+        console.log("Veli'nin Yaşı:" + veli.getAge());
+        ali.display();
+    </script>
+</body>
+</html>

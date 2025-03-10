@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <h1 onclick="sayHello('Zafer')">Output</h1>
+    <p id="div1">
+        
+    </p>
+
+    <script>
+        let mem = {
+            name:"Trabzon",
+            population: 1000000,
+            area: 10000,
+            isCoastal: true,
+            cities : ["Hayrat","Of","Çaykara","Sürmene","Köprübaşı","Araklı","Arsin","Yomra","Maçka"],
+            getDensity : function(){
+                return this.population / this.area;
+            },
+            getCityCount : function(){
+                return this.cities.length;
+            }
+        };
+        console.log("Şehir:" + mem.name);
+        console.log("Nüfus:" + mem.population);
+        console.log("Yoğunluk:" + mem.getDensity());
+        console.log("Şehir sayısı:" + mem.getCityCount());
+
+        let div1 = document.getElementById('div1');
+        div1.innerHTML = "<p>Şehir:" + mem.name + "</p>";
+
+        div1.innerHTML += "İlçeler:<ul>";
+        for(let i = 0; i < mem.cities.length; i++){
+            div1.innerHTML += "<li>" + mem.cities[i] + "</li>";
+        }
+        div1.innerHTML += "</ul>";
+
+        div1.innerHTML += "İlçeler:<ul>";
+        for(let city in mem.cities){
+            div1.innerHTML += "<li>" + mem.cities[city] + "</li>";
+        }
+        div1.innerHTML += "</ul>";
+
+        function sayHello(name){
+            alert("Merhaba " + name);
+        }
+
+        //sayHello();
+    </script>
+</body>
+</html>
