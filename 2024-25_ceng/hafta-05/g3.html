@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Sitesi Taslağı</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .menü {
+            background-color: #f0a9a9;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            width: 100%;
+        }
+
+        .menü a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+        .başlık {
+            text-align: center;
+            padding: 3px;
+            background-color: #f3dddd;
+            width: 100%;
+        }
+
+        .gezinmeÇubuğu {
+            background-color: #f0a9a9;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            width: 100%;
+        }
+
+        .gezinmeÇubuğu a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+        .içerik {
+            margin-top: 20px; 
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            width: 80%;
+            margin-top: 20px;
+            margin-right: 5%;
+           
+        }
+
+        .galeriKonteyner {
+            flex:10;
+            text-align: center;
+        }
+
+        .galeri {
+            display: flex;
+            flex-wrap: inherit;
+            /*flex-wrap: wrap;/*Resimlerin yan yana sıralanması*/
+            justify-content: center;/*Resimlerin ortalanması*/
+            
+        }
+
+        .galeri .resimKonteyner {
+            text-align: center;/*Resimlerin ortalanması*/
+            margin-top: 10px;
+        }
+
+        .galeri .resimKonteyner img {
+            max-width: 50%;
+            height: auto;
+        }
+
+        .galeri .resimKonteyner p {
+            margin-top: 5px;
+            font-size: 15px;
+            color: #555;
+        }
+
+        .altResim {
+            border: 5px solid black;
+            text-align: center;
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+            background-color: #f3dddd;
+            border-color: #f0a9a9d6;     
+        }
+
+        .altResim img {
+            max-width: 150px;
+            height: auto;
+            margin-right: 20px;
+        }
+
+        .altResim p {
+            font-size: 14px;
+            color: #555;
+            margin: 0;
+            
+        }
+
+        .yanGaleri {
+            border: solid black 5px;
+            flex: 3; /*boyut*/
+            display: flex;
+            flex-direction: column;
+            margin-left: 20px;
+            position: relative;
+            left: 2%;/*aralarındaki boşluk*/
+            align-items: center;
+            background-color: #f3dddd;
+            border-color: #f0a9a9d6;
+        }
+
+        .yanGaleri .yanResimKonteyner {
+            display: flex;
+            align-items: center;
+            margin: 10px 0; /*Resimler Aralarındaki boşluk*/
+        }
+
+        .yanGaleri .yanResimKonteyner img {
+            max-width: 100px;
+            height: auto;
+            margin-right: 10px;
+        }
+
+        .yanGaleri .yanResimKonteyner p {
+            font-size: 14px;
+            color: #555;
+            
+        }
+
+        .logo {
+            max-width: 300px;
+            max-height: 300px;
+            height: auto;
+            position: relative;
+            height: 70px;
+            top: 5px;
+            right: 18%;
+        }
+        .başlıkYazı {
+            display: inline;
+            position: relative;
+            /* right: 29%;*/
+            bottom: 15px;
+
+        }
+        .resimGaleri {
+            border: 5px solid black;
+            background-color: #f3dddd;
+            border-color: #f0a9a9d6;
+
+        }
+        .ortalancak {
+            text-align: center;
+        }
+        
+    </style>
+</head>
+
+<body>
+
+    <div class="menü">
+        <a href="#">Ana Sayfa</a>
+        <a href="#">Hakkımızda</a>
+        <a href="#">İletişim</a>
+    </div>
+
+    <div class="başlık">
+        <h1 class="başlıkYazı">FilmRulosu</h1>
+        <img src="https://r.resimlink.com/0g45DQU_Ce.png" alt="Logo" class="logo">
+    </div>
+
+    <div class="gezinmeÇubuğu">
+        <a href="#">Komedi</a>|
+        <a href="#">Gerilim</a>|
+        <a href="#">Aksiyon</a>|
+        <a href="#">Polisiye</a>|
+        <a href="#">Dram</a>|
+        <a href="#">Psikolojik</a>
+
+
+    </div>
+
+    <div class="içerik">
+        <div class="galeriKonteyner">
+            <div class="resimGaleri">
+            <h2>EN YENİLER</h2>
+            <div class="galeri">
+                <div class="resimKonteyner">
+                    <img src="https://img.fullhdfilmizlesene.de/poster/izle-lg/sanal-ulke-the-electric-state-86462.webp" alt="Resim 1">
+                    <p>Sanal Ülke The Electric State</p>
+                </div>
+                <div class="resimKonteyner">
+                    <img src="https://img.fullhdfilmizlesene.de/poster/izle-lg/legenda-o-kolovrate-11289.webp" alt="Resim 2">
+                    <p>Legenda o Kolovrate</p>
+                </div>
+                <div class="resimKonteyner">
+                    <img src="https://img.fullhdfilmizlesene.de/poster/izle-lg/control-freak-32573.webp" alt="Resim 3">
+                    <p>Control Freak</p>
+                </div>
+            </div>
+            </div>
+            <div class="altResim">
+                
+                
+                <img src="https://img.fullhdfilmizlesene.de/poster/izle-lg/moana-2-1216.webp" alt="Ekstra Resim">
+                <p><strong> Admin Önerisi : </strong>Moana, sıradan bir gün geçirirken beklenmedik bir telefon alır. Bu çağrı, ona atalarından gelir ve çok eski zamanlardan beri kaybolmuş olan denizlerin derinliklerine gitmesi gerektiğini söyler. Bu çağrı oldukça gizemli ve etkileyici bir havaya sahiptir, çünkü ailesinin köklü yön bulma yetenekleriyle dolu geçmişi bu yolculuğa rehberlik etmektedir. Moana, kendisini bekleyen büyük maceranın farkına varır ve tereddüt etmeden hazırlıklara başlar. Yolculuğunun başlangıcında, güney Pasifik Okyanusu'nun derinliklerine doğru yola çıkması gerektiğini öğrenir. Moana için bu, daha önce karşılaşmadığı kadar tehlikeli ve zorlu bir macera olacaktır. Sonsuz gibi görünen bu okyanuslarda, yüzyıllardır insan elinin dahi değmediği, kayıp ve efsanevi sulara ulaşması gerekecektir. Bu yolculuk esnasında, Moana'nın cesareti, kararlılığı ve liderlik yetenekleri sınanırken, büyüleyici doğa harikaları ve mitolojik yaratıklarla karşılaşır. Macera sırasında sadece fiziksel engellerle değil, aynı zamanda kendi içsel güçleriyle de yüzleşmesi gerektiğini fark eder.</p>
+                
+            </div>
+        </div>
+
+        <div class="yanGaleri">
+            <h2 class="ortalancak">EN ÇOK İZLENENLER</h2>
+            <div class="yanResimKonteyner">
+                <img src="https://img.fullhdfilmizlesene.de/poster/izle-lg/fullhd-hizli-ve-ofkeli-5-turkce-altyazili-full-hd-izle.webp" alt="Resim 4">
+                <p>Hızlı ve Öfkeli 5 Rio Soygunu Fast Five</p>
+            </div>
+            <div class="yanResimKonteyner">
+                <img src="https://img.fullhdfilmizlesene.de/poster/izle-lg/fullhd-trns-3-ayin-karanlik-yuzu-hd-izle.webp" alt="Resim 5">
+                <p>Transformers 3 Ayın Karanlık Yüzü</p>
+            </div>
+            <div class="yanResimKonteyner">
+                <img src="https://img.fullhdfilmizlesene.de/poster/izle-lg/fullhd-x-men-birinci-sinif-x-men-first-class-2011-full-hd-izle.webp" alt="Resim 6">
+                <p>X Men 5 Birinci Sınıf X Men First Class</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

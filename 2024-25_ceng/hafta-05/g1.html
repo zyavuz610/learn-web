@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas:
+          "link link link"
+          "header header header"
+          "content content content"
+          "sidebar sidebar box2"
+          "box1 box1 box2";
+      }
+
+      .link {
+        grid-area: link;
+        color: black;
+        text-align: right;
+      }
+
+      .link li {
+        display: inline-block; /* Yazıları yatayda sıralamak için inline-block kullanılır */
+        margin-right: 10px; /* Elemanlar arasına boşluk eklemek için margin ekleyebilirsiniz */
+      }
+
+      .link li:last-child {
+        margin-right: 0; /* Sonuncu öğenin sağında boşluk olmasın */
+      }
+
+      .header {
+        grid-area: header;
+        background-color: #005792;
+        /* text-align: center; */
+      }
+
+      .sidebar {
+        grid-area: sidebar;
+        background-color: blue;
+      }
+
+      .content {
+        grid-area: content;
+        text-align: center;
+        background-color: white;
+      }
+
+      .box-1 {
+        grid-area: box1;
+        background-color: #ff6f3c;
+      }
+
+      .box-2 {
+        grid-area: box2;
+        background-color: #f95959;
+      }
+
+      .footer {
+        grid-area: footer;
+        background-color: turquoise;
+      }
+
+      .header,
+      .content,
+      .sidebar,
+      .box-1,
+      .box-2 {
+        border: 1px solid #ccc;
+      }
+
+      .products-container {
+        /* background: linear-gradient(135deg, #d62d7c, #9b1b5e); */
+        padding: 20px;
+        border-radius: 10px;
+      }
+      .products-title {
+        text-align: center;
+        color: white;
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 20px;
+      }
+      .products-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(220px, 1fr));
+        gap: 15px;
+      }
+      .product-card {
+        background: white;
+        padding: 15px;
+        border-radius: 10px;
+        text-align: center;
+      }
+      .product-card img {
+        width: 100%;
+      }
+      .product-title {
+        font-weight: bold;
+        margin-top: 10px;
+      }
+      .product-price {
+        color: #e60023;
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 5px;
+      }
+      .discount {
+        color: gray;
+        text-decoration: line-through;
+        font-size: 14px;
+      }
+
+      .categories-container {
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        max-width: 400px;
+        margin: auto;
+      }
+      .category-title {
+        background-color: #64c2f8;
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+        padding: 15px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+      }
+      .categories-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+      }
+      .category-card {
+        background: #64c2f8;
+        padding: 15px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        color: white;
+        font-weight: bold;
+      }
+      .category-card img {
+        max-width: 50px;
+        border-radius: 5px;
+        margin-right: 10px;
+      }
+
+      .grid-layout {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        align-items: start;
+      }
+
+      .image {
+        max-width: 100%;
+        height: auto;
+      }
+
+      .description {
+        font-size: 16px;
+        line-height: 1.5;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="link">
+        <ul>
+          <li>Kayıt ol</li>
+          <li>Giriş yap</li>
+          <li>Bize Ulaş</li>
+        </ul>
+      </div>
+
+      <header class="header">
+        <img
+          class="logo"
+          src="https://picsum.photos/200/300"
+          width="100px"
+          height="100px"
+          alt=""
+        />
+
+        <h2 style="display: inline; vertical-align: top; font-size: larger; margin-left: 0; font-size: 70px;">
+          HepsiYokOrada
+        </h2>
+
+        <!-- <h2 style="text-align: center;">Page Header</h2> -->
+        <img src="" alt="" />
+      </header>
+      <section class="content">
+        <nav class="navbar">
+          <div class="menu">
+            <a href="">HepsiYokOrada</a>
+            <a href="#">Kadın</a>
+            <a href="#">Erkek</a>
+            <a href="#">Anne & Çocuk</a>
+            <a href="#">Ev & Yaşam</a>
+            <a href="#">Süpermarket</a>
+            <a href="#">Kozmetik</a>
+            <a href="#">Ayakkabı & Çanta</a>
+            <a href="#">Elektronik</a>
+            <a href="#">Çok Satanlar</a>
+            <a href="#">Flaş Ürünler</a>
+          </div>
+          <div class="icons">
+            <span>🔔</span>
+            <span>❤</span>
+            <span>🛒</span>
+          </div>
+        </nav>
+      </section>
+      <section class="sidebar">
+        <div class="products-container">
+          <div class="products-title">Popüler Ürünler</div>
+          <div class="products-grid">
+            <div class="product-card">
+              <img src="https://picsum.photos/200/300" alt="Ürün 1" />
+              <div class="product-title">MINECRAFT Hoodie</div>
+              <div class="discount">799 TL</div>
+              <div class="product-price">149,90 TL</div>
+            </div>
+            <div class="product-card">
+              <img src="https://picsum.photos/200/300" alt="Ürün 2" />
+              <div class="product-title">COOL TARZ 5'li T-Shirt</div>
+              <div class="product-price">959 TL</div>
+            </div>
+            <div class="product-card">
+              <img src="https://picsum.photos/200/300" alt="Ürün 3" />
+              <div class="product-title">George Phoenix Sneakers</div>
+              <div class="discount">1.167,74 TL</div>
+              <div class="product-price">931,67 TL</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="box-1">
+        <div class="grid-layout">
+          <img
+            src="https://picsum.photos/200/300"
+            alt="Ürün Görseli"
+            class="image"
+          />
+          <div class="description">
+            <h2>Uniqamping Katlanabilir Alüminyum Masa 56X46X40</h2>
+            <p><strong>Fiyat:</strong> 999,00 TL</p>
+            <p><strong>Ebatlar:</strong> 56 x 46 x 40 cm</p>
+            <p>
+              Katlanabilir ve hafif tasarımı ile kamp ve açık hava etkinlikleri
+              için mükemmel bir seçimdir.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="box-2">
+        <div class="categories-container">
+          <div class="category-title">KİTAPLAR</div>
+          <div class="category-title">AYIN KİTAP KAMPANYALARI</div>
+          <div class="categories-grid">
+            <div class="category-card">
+              <img src="https://picsum.photos/200/300" />ÇOK SATAN KİTAPLAR
+            </div>
+            <div class="category-card">
+              <img src="https://picsum.photos/200/300" />ÇOCUK KİTAPLARI
+            </div>
+            <div class="category-card">
+              <img src="https://picsum.photos/200/300" />YENİ ÇIKAN KİTAPLAR
+            </div>
+            <div class="category-card">
+              <img src="https://picsum.photos/200/300" />YARDIMCI DERS KİTAPLARI
+            </div>
+            <div class="category-card">
+              <img src="https://picsum.photos/200/300" />SINAVA HAZIRLIK
+              KİTAPLARI
+            </div>
+            <div class="category-card">
+              <img src="https://picsum.photos/200/300" />MANGA VE ÇİZGİ ROMAN
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Uygulama 1</title>
+        <!-- <link rel="stylesheet" href="styles.css " /> -->
+        <style>
+            body {
+                margin: 0;
+                background-color: #eeeeee;
+                padding-bottom: 24px;
+            }
+
+            header {
+                width: auto;
+                height: 100px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                background-color: #ead196;
+                padding: 12px 48px;
+                color: #eeeeee;
+                text-transform: uppercase;
+                background-color: #263238;
+            }
+
+            header img {
+                width: 100px;
+                height: 100px;
+            }
+
+            nav {
+                display: flex;
+                justify-content: center;
+                margin: 18px 0;
+                /* margin-top: 0; */
+                font-size: larger;
+            }
+
+            nav ul {
+                display: flex;
+                justify-content: space-between;
+                padding: 16px 24px;
+                width: 50%;
+                background-color: #b0bec5;
+                border-radius: 8px;
+                box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.4);
+            }
+
+            nav ul li {
+                list-style: none;
+            }
+
+            nav ul li a {
+                text-decoration: none;
+                color: white;
+                font-size: larger;
+                padding: 4px;
+                border-radius: 8px;
+                color: black;
+            }
+
+            nav ul li a:hover {
+                text-decoration: underline;
+            }
+
+            .ürünler {
+                margin-left: 32px;
+                display: flex;
+                justify-content: space-between;
+            }
+            .ürünler div {
+                display: flex;
+                flex-direction: column;
+                background-color: #546e7a;
+                padding: 8px;
+                text-align: center;
+                color: white;
+                border-radius: 8px;
+                cursor: pointer;
+                box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.4);
+            }
+
+            .ürünler div:hover {
+                transform: scale(1.05);
+                transition: all 0.2s ease;
+            }
+
+            .ürünler img {
+                width: 320px;
+            }
+
+            .aciklama {
+                display: flex;
+                gap: 16px;
+                margin: 48px 32px;
+                background-color: #546e7a;
+                border-radius: 8px;
+                color: white;
+                font-size: larger;
+                justify-content: center;
+                align-items: center;
+                box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.6);
+                font-size: 24px;
+                padding: 8px;
+                margin-right: 0;
+                margin-bottom: 0;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri,
+                    'Trebuchet MS', sans-serif;
+            }
+
+            .aciklama p {
+                margin: 0 16px;
+            }
+
+            .aciklama img {
+                width: 30%;
+                border-radius: 8px;
+            }
+
+            .fiyatlar {
+                display: flex;
+                flex-direction: column;
+                margin-right: 64px;
+                gap: 24px;
+                justify-content: space-between;
+            }
+
+            .fiyat {
+                display: flex;
+                background-color: white;
+                justify-content: center;
+                align-items: center;
+                gap: 8px;
+                padding: 4px;
+                padding-right: 16px;
+                border-radius: 8px;
+                border: 1px solid black;
+            }
+
+            .fiyat img {
+                width: 120px;
+            }
+
+            main {
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .main {
+                width: 75%;
+            }
+
+            .satin-al {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                font-size: larger;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+
+            .satin-al button {
+                background-color: #455a64;
+                color: white;
+                padding: 8px;
+                border-radius: 8px;
+                border: none;
+            }
+
+            .satin-al button:hover {
+                background-color: #b0bec5;
+                transition: all 0.2s ease;
+                transform: scale(1.05);
+                cursor: pointer;
+                color: black;
+            }
+
+            .cizgi {
+                width: 1px;
+                height: 100%;
+                background-color: black;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/LEGO_logo.svg/1200px-LEGO_logo.svg.png"
+                alt="logo"
+            />
+            <h1>Lego Mağazası</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Anasayfa</a></li>
+                <div class="cizgi"></div>
+                <li><a href="urunler.html">Ürünler</a></li>
+                <div class="cizgi"></div>
+                <li><a href="hakkimizda.html">Hakkımızda</a></li>
+                <div class="cizgi"></div>
+                <li><a href="iletisim.html">İletişim</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <div class="main">
+                <div class="ürünler">
+                    <div>
+                        <img
+                            src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQDw7VvrndnBCGq2oZKKQ8eVj4RnsC-N9h6fFABTzAgJb_enjw_MC51h58b57BKK5fOSegNh3iXHtDDlykU4lOZGkEof27qZtTPk7iiM5fnQJVCd_PB6klX&usqp=CAE"
+                            alt="lego"
+                        />
+                        <h2>LEGO Classic</h2>
+                    </div>
+                    <div>
+                        <img
+                            src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQiyIX-oXm5kOKU80D678B8wFz8pZY3ehAEmdp6FNkkRvTOyll-uEd9RDW-sYjtv8VeFpoTyCZBZO2vfprEfF7GxXZ1Dm2S7kW4QhzmJzK7_HKJjSWtgZ8k&usqp=CAE"
+                            alt="lego"
+                        />
+                        <h2>LEGO Arazi Aracı</h2>
+                    </div>
+                    <div>
+                        <img
+                            src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQMrW3S1a-_4nmsHF_Er4IlujfU7zyMtz5leW0eENpmO5Z3kY_YT2-YuOwslE_l4tjnY1OafrAMGBG6PaEvjZrALorZtIj3gJKWx1UjpqM&usqp=CAE"
+                            alt="lego"
+                        />
+                        <h2>LEGO Hız Treni</h2>
+                    </div>
+                </div>
+                <div class="aciklama">
+                    <img
+                        src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ5idvLh04iGn8CAGY7yBudzxBKQ6O504wE9fDkAphtx3hzl3EK52jG8OAb-KGKNms1wkOPAsEdTu2oZjtXQ_1lt7Vu-eFG_yJW6FZ0IDns2u-CYeN6AEdl&usqp=CAE"
+                        alt="asd"
+                    />
+                    <p>
+                        LEGO Star Wars Executor Super Star Destroyer 75356 9 yaş
+                        ve üzeri çocukların hayal gücünü harekete geçiren, LEGO
+                        Star Wars serisinin heyecan verici bir parçası olan
+                        Executor.
+                    </p>
+                </div>
+            </div>
+            <div class="fiyatlar">
+                <div class="fiyat">
+                    <img
+                        src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcS4z_WNMEB_w1uEieGMkE6nPx8Hs_0SlKFazVBP2DhGQcT_2AQY_kF55aRK2VLW6bagDbg6N-QtjjC4N-QY1EtGPu0wRPOOeVr_BTfsucC8W4zRTc9TX76nYA&usqp=CAE"
+                        alt="adsa"
+                    />
+                    <div class="satin-al">
+                        <p>623 ₺</p>
+                        <button>Satın Al</button>
+                    </div>
+                </div>
+                <div class="fiyat">
+                    <img
+                        src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTJ2E2FNzgigHwM_5xAitBiPrRLg7SwGjkFPbUiT3iUvVxNfVCPW_pNGiZATX4XAw0CEObSVskV5ZDRYQU7xmnKIBaBC8AEnxErJjwUzjp2u9jqEMScFc0Z8Q&usqp=CAE"
+                        alt="adsa"
+                    />
+                    <div class="satin-al">
+                        <p>156 ₺</p>
+                        <button>Satın Al</button>
+                    </div>
+                </div>
+                <div class="fiyat">
+                    <img
+                        src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRA8UYJBZSXpEaOV_6gFH-iBd6l3K93Q1zoQzCxPnV5-fEEoJl_-x8_i_yPaoaH6DoGYZ6Y30VhFBvDy55m9o_M3rNjXPX9gLzcvL-8nYSNPJPiOJJ4vC11&usqp=CAE"
+                        alt="adsa"
+                    />
+                    <div class="satin-al">
+                        <p>246 ₺</p>
+                        <button>Satın Al</button>
+                    </div>
+                </div>
+                <div class="fiyat">
+                    <img
+                        src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcS38UoZkCeqdREBlXVl6spiNtpo7WR1z_vnoS0nkVSlqXABatsQcUlr0xpt74tqOeSOUFz81nACeeEwbI9gXeER93t3mCns3oPM6WbYAAGxTOwQmnJybU_2&usqp=CAE"
+                        alt="adsa"
+                    />
+                    <div class="satin-al">
+                        <p>46 ₺</p>
+                        <button>Satın Al</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        background-color: #f4f4f4;
+    }
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        background-color: #031815;
+        color: white;
+    }
+    .nav {
+        background-color: #000;
+        padding: 10px;
+    }
+    .nav a {
+        color: white;
+        text-decoration: none;
+        margin: 10px;
+    }
+    .container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr) 220px;
+        grid-template-rows: auto auto;
+        gap: 20px;
+        padding: 20px;
+    }
+    .main-content {
+        display: contents;
+    }
+    .box {
+        width: 100%;
+        margin: 0;
+        padding: 15px;
+        border: 1px solid #ddd;
+        background-color: white;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        border-radius: 8px;
+        text-align: left;
+    }
+    .box img {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+    .sidebar {
+        grid-column: 4;
+        grid-row: span 2;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .sidebar img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+    .footer-box {
+        grid-column: span 3;
+    }
+    .footer-box .box {
+        width: calc(100% - 30px);
+    }
+    @media (max-width: 1024px) {
+        .container {
+            grid-template-columns: 1fr;
+            grid-template-rows: auto;
+        }
+        .sidebar {
+            grid-column: 1;
+            grid-row: auto;
+            width: 100%;
+            flex-direction: row;
+            overflow-x: auto;
+        }
+        .sidebar img {
+            width: auto;
+            height: 150px;
+        }
+        .footer-box {
+            grid-column: 1;
+        }
+    }
+</style>
+</head>
+<body>
+    <header class="header">
+        <img src="https://cdn2.steamgriddb.com/icon/7316e11fe78963395fbab4a85d0b8f85/32/256x256.png" width="50" height="50">
+        <div>Elden Ring En İyi Silah</div>
+        <div>Renk</div>
+    </header>
+
+    <nav class="nav">
+        <a href="#home">Ana Sayfa</a>
+        <a href="#about">Hakkında</a>
+        <a href="#contact">İletişim</a>
+    </nav>
+
+    <div class="container">
+        <div class="main-content">
+            <div class="box">
+                <img src="https://cdn.mos.cms.futurecdn.net/Q2NQuqiXT7cDaZCRJEuwsY-650-80.jpg.webp" alt="Bloodhound Fang">
+                <p><b>Silah Türü:</b> Curved Greatsword (Eğri Büyük Kılıç).<br>
+                Hızlı ve güçlü Bloodhound's Finesse adlı özel bir skill'e sahiptir. Bu hareketle geriye doğru çevik bir sıçrama ve ardından hızlı bir saldırı yapılır. Hafif sayılabilecek büyük kılıçlardan biridir (7.5 ağırlık), çevik buildler için uygun. Bloodhound Knight Darriwil'i yenerek elde edilir (Limgrave).</p>
+            </div>
+
+            <div class="box">
+                <img src="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2022/04/elden-ring-bloodhound-fang.jpg?q=50&fit=crop&w=1140&h=&dpr=1.5" alt="Bloodhound Weapon">
+                <p>Çevik, seri saldırılar ve Bloodhound Step odaklı. Tek hedefte yüksek DPS + Kanama. Hem hızlı Claw saldırıları hem de ağır Fang vuruşları ile esnek oyun. Bosslarda Fang, küçük düşmanlarda Claw kullanılır.</p>
+            </div>
+
+            <div class="box">
+                <img src="https://preview.redd.it/an-appreciation-post-for-the-bloodhounds-fang-a-weapon-that-v0-z1eg281tccya1.png?width=1080&crop=smart&auto=webp&s=fa3f9d7ec0d8ea3f9254ffda7fa19e88aa4b3cc7" alt="Bloodhound Skill">
+                <p><b>Natural Skill:</b> Bloodhound's Finesse.<br>Hem saldırı hem kaçış kombosu. Rakip counter saldırı yapmadan hızla uzaklaşma sağlar. Diğer curved greatsword'lara göre çok daha esnek ve avantajlı.</p>
+            </div>
+        </div>
+
+        <aside class="sidebar">
+            <img src="https://www.donanimhaber.com/cache-v2/?t=20241213133835&width=-1&text=0&path=https://www.donanimhaber.com/images/images/haber/185308/src/yeni-elden-ring-oyunu-nightreign-tanitildi-2025-te-geliyor185308_0.jpg" alt="Elden Ring Yeni Oyun">
+            <img src="https://www.misternoob.com/wp-content/uploads/2022/03/Elden-Ring-Inceleme-1.jpg" alt="Elden Ring İnceleme">
+            <img src="https://www.atarita.com/wp-content/webp-express/webp-images/uploads/2024/06/1_0005_Elden-Ring-Hero-d2b3b43835cb49e5eb96-1024x576.jpg.webp" alt="Elden Ring Hero">
+            <img src="https://www.atarita.com/wp-content/webp-express/webp-images/uploads/2024/06/1_0000_ERSOTE-screenshot-4-1024x576.jpg.webp" alt="ERSOTE Screenshot">
+        </aside>
+
+        <div class="footer-box">
+            <div class="box">
+                <div style="display: flex; align-items: center;">
+                    <img src="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2024/02/bloodhounds-fang-elden-ring.jpg?q=50&fit=crop&w=1140&h=&dpr=1.5" alt="Bloodhound's Fang" style="margin-right: 10px; width: 150px;">
+                    <p><b>Bloodhound's Fang:</b> "Hem hızlı olayım, hem ağır vurayım, hem de artistik dövüşeyim" diyenler için en iyi curved greatsword. Kolay alınır, güçlü kalır, esnek oynatır.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

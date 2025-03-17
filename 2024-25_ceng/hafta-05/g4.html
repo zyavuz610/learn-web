@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Şablon Sayfası</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            animation: backgroundChange 10s infinite;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+        }
+        .nav {
+            background-color: #444;
+            padding: 10px;
+        }
+        .nav a {
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: auto auto auto;
+            gap: 30px;
+            padding: 10px; 
+        }
+        .box {
+            padding: 10px;
+            position: relative;
+        }
+        .box img {
+            width: 100%;
+            height: auto;
+        }
+        .box-1 {
+            grid-column: 1;
+            grid-row: 1;
+            width: 200px;
+        }
+        .box-2 {
+            grid-column: 2;
+            grid-row: 1;
+            width: 200px;
+        }
+        .box-3 {
+            grid-column: 3;
+            grid-row: 1;
+            width: 200px;
+        }
+        .box-4 {
+            grid-column: 4;
+            grid-row: 1 / span 2;
+        }
+        .box-5 {
+            grid-column: 1 / span 3;
+            grid-row: 2;
+        }
+        .text-box {
+            grid-column: 1 / span 3;
+            grid-row: 3;
+            text-align: left;
+        }
+        .image-text {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .image-text img {
+            margin-right: 10px;
+            width: 150px;
+            height: auto;
+        }
+        .image-text3 {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .image-text3 img {
+            margin-right: 10px;
+            width: 300px;
+            height: auto;
+        }
+        .btn {
+            margin-top: 30px;
+        }
+        .kampanya {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background-color: red;
+            color: white;
+            padding: 5px 10px;
+            font-size: 14px;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+        @keyframes backgroundChange {
+            0% { background-color: #ff9999; }
+            25% { background-color: #99ff99; }
+            50% { background-color: #9999ff; }
+            75% { background-color: #ffff99; }
+            100% { background-color: #ff9999; }
+        }
+        .ilet {
+            background-color: #333;
+            color: white;
+            padding: 5px;
+        }
+        .span {
+            color: red;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div><img src="https://oyuncustore.net/wp-content/uploads/2024/01/ostorelogo-min.png" alt="logo" width="100px"></div>
+        <div>OYUNCUSTORE</div>
+        <div></div>
+    </header>
+    <nav class="nav">
+        <a href="#">Ana Sayfa</a>
+        <a href="#">Hakkında</a>
+        <a href="#">İletişim</a>
+    </nav>
+    <div class="container">
+        <div class="box box-1"><img src="https://oyuncustore.net/wp-content/uploads/2024/07/easportsfc25.jpg" alt="Resim 1">
+            <p><button class="btn btn-primary">Satın Al</button></p>
+        </div>
+        <div class="box box-2"><img src="https://oyuncustore.net/wp-content/uploads/2023/09/fm24-1.jpg" alt="Resim 2">
+            <p><button class="btn btn-primary">Satın Al</button></p>
+        </div>
+        <div class="box box-3"><img src="https://oyuncustore.net/wp-content/uploads/2019/11/reddeadredemption2.jpg" alt="Resim 3">
+            <p><button class="btn btn-primary">Satın Al</button></p>
+        </div>
+        <div class="box box-4">
+            <h4>Çıkacak Oyunlar</h4>
+            <div class="image-text">
+                <img src="https://oyuncustore.net/wp-content/uploads/2024/05/assasinscreedshadows.jpg" alt="Resim 4-1">
+                <p>Assassin's Creed Shadows, Ubisoft Quebec tarafından geliştirilen <br>ve Ubisoft tarafından yakında yayımlanacak bir aksiyon rol yapma oyunudur.</p>
+            </div>
+            <div class="image-text">
+                <img src="https://oyuncustore.net/wp-content/uploads/2024/09/kingdomcomedeliverance2.jpg" alt="Resim 4-2">
+                <p>Kingdom Come: Deliverance II, Warhorse Studios tarafından geliştirilen <br> ve Deep Silver tarafından yayımlanan, tek oyunculu bir aksiyon rol yapma oyunudur.</p>
+            </div>
+            <div class="image-text">
+                <img src="https://oyuncustore.net/wp-content/uploads/2024/10/spiderman2.jpg" alt="Resim 4-3">
+                <p>Marvel's Spider-Man 2, Insomniac Games tarafından geliştirilen <br> ve Sony Interactive Entertainment <br> tarafından yayınlanan, yakında çıkacak bir aksiyon-macera oyunudur.</p>
+            </div>
+        </div>
+        <div class="box box-5">
+            <div class="kampanya">Kampanya %50 indirim</div>
+            <div class="image-text3">
+                <img src="https://helios-i.mashable.com/imagery/articles/00iMVz5oU69RK9UEoPsZTMW/hero-image.fill.size_1248x702.v1623390188.jpg" alt="Resim 5">
+                <br>
+                <p>Ghost of Tsushima, Sucker Punch Productions tarafından geliştirilen ve Sony Interactive Entertainment tarafından yayınlanan bir aksiyon-macera oyunudur. Oyun şuan kampanyada ve 70$'dan 35$'a düştü.</p>
+                <br>
+            </div>
+        </div>
+    </div>
+    <div class="ilet">
+        <section id="İletişim">
+            <h2>İletişim</h2>
+            <p>oyuncu@gmail.com</p>
+        </section>
+    </div>
+</body>
+</html>

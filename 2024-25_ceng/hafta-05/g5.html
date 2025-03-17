@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Barbie'nin Mutfak Tarifleri</title>
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.language-bar {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #4B0082; 
+    color: white;
+    padding: 10px 20px;
+}
+.top-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #6A4C9C; 
+    color: white;
+}
+.top-header .home {
+    flex: 0.2;
+    text-align: center;
+}
+.top-header .categories {
+    flex: 0.8;
+    display: flex;
+    justify-content: space-around;
+}
+.header {
+    display: flex;
+    justify-content: center;
+}
+.header .logo {
+    flex: 0.2;
+    width: 120px;
+    height: auto; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header .logo img {
+    width: 100%;
+    height: auto; 
+    object-fit: cover;
+    border-radius: 10px;
+}
+.header .title {
+    flex: 0.8;
+    background-color: lightpink;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: "Georgia", serif;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.navbar {
+    background-color: #D8BFD8;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.navbar a:hover {
+    color: #4B0082; 
+}
+.main {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+}
+.left {
+    display: flex;
+    flex: 3;
+    flex-wrap: wrap; 
+}
+.image-container {
+    width: 30%; 
+    margin-bottom: 20px; 
+    padding: 10px;
+}
+.image {
+    position: relative;
+    background-color: #D8BFD8;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+.image img {
+    width: 100%;
+    height: auto;
+}
+.image .caption {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    border-radius: 5px;
+}
+.ingredients {
+    background-color: lightpink;
+    padding: 20px;
+    color: white;
+    margin-top: 10px;
+    text-align: left;
+    border-radius: 8px;
+}
+.right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.small-images {
+    display: flex;
+    flex-direction: column;
+}
+.small-box {
+    background-color: lightpink;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    flex-grow: 1;
+}
+.laz-boregi {
+    background-color: lightpink;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    flex-grow: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+.big-image {
+    background-color: #D8BFD8;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    width: 75%;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="language-bar">Anasayfa| Türkçe | İngilizce | Almanca | Rusça</div>
+
+<div class="header">
+<div class="logo"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh00ObhKVXq0u8pwZcBJT9VG083sHO2iP5Zw&s" alt="Barbie Logo"></div>
+<div class="title">Barbie'nin Mutfak Lezzetleri</div>
+</div>
+
+<div class="navbar">
+    <a href="https://www.nefisyemektarifleri.com/liste/yilin-populer-ana-yemek-tarifleri/">Ana Yemek</a>
+    <a href="https://www.nefisyemektarifleri.com/kategori/tarifler/salata-meze-kanepe/meze-tarifleri/">Meze</a>
+    <a href="https://www.nefisyemektarifleri.com/kategori/tarifler/corba-tarifleri/">Çorba</a>
+    <a href="https://www.nefisyemektarifleri.com/kategori/tarifler/salata-meze-kanepe/salata-tarifleri/">Salata</a>
+    <a href="https://www.nefisyemektarifleri.com/kategori/tarifler/tatli-tarifleri/">Tatlı</a>
+    <a href="https://www.nefisyemektarifleri.com/kategori/tarifler/icecek-tarifleri/">İçecek</a>
+</div>
+
+<div class="main">
+    <div class="left">
+        
+        <div class="image-container">
+            <div class="image">
+                <img src="https://i.nefisyemektarifleri.com/2019/11/12/firinda-sutlac-yapilisi-8.jpg" alt="Fırında Sütlaç" alt="Domates Çorbası" alt="Fırında Sütlaç">
+                <div class="caption">Fırında Sütlaç</div>
+            </div>
+            <div class="ingredients">
+                <h3>İçindekiler:</h3>
+                <ul>
+                    <li>1 litre süt</li>
+                    <li>1 su bardağı şeker</li>
+                    <li>Yarım su bardağı pirinç</li>
+                    <li>3 yemek kaşığı buğday nişastası</li>
+                    <li>1 paket vanilya</li>
+                    <li>2 su bardağı su</li>
+                    <li>Yarım su bardağı süt (nişastayı açmak için)</li>
+                </ul>
+            
+<div class="instructions">
+                <h3>Yapılışı:</h3>
+                <p>Fırında sütlaç için öncelikle pirinci haşlayalım. Pirinçleri güzelce yıkadıktan sonra 2 su bardağı su ile pirinçler yumuşayıp pişene kadar haşlayın. Çok az sulu kalacaktır.</p>
+                <p>Diğer malzemeleri ekleyelim ve sütlacı pişirelim. Haşlanan pirinçlerin üzerine sütü, vanilyayı ilave edip kaynatın.</p>
+                <p>Bu arada bir kap içerisinde nişasta ve sütü (suyu) pürüzsüz kıvam alıncaya kadar karıştırın.</p>
+                <p>Karışım kaynamaya başlayınca şekeri ve yarım su bardağı sütle karıştırdığınız 3 yemek kaşığı buğday nişastasını ilave ediniz. 10-15 dk. daha kaynatıp ocağın altını kapatın.</p>
+                <p>Sütlaçları fırına sürelim. Fırın için uygun ısıya dayanıklı sütlaç kaselerine sütlaçlarınızı paylaştırın. Tepsinize soğuk su doldurun ve sütlaç kaplarını fırın tepsinize dizin (Tepsideki su sütlaç kaplarının yarısına kadar gelecek).</p>
+                <p>Tepsiyi fırınınızın en üst rafına yerleştirin. 180 derecede, sütlaçlarınız kızarana kadar fırınlayın. Afiyet olsun!</p>
+            </div>
+</div>
+        </div>
+
+        <div class="image-container">
+            <div class="image">
+                <img src="https://i.nefisyemektarifleri.com/2019/11/12/firinda-sutlac-yapilisi-8.jpg" alt="Fırında Sütlaç" alt="Domates Çorbası" alt="Fırında Sütlaç">
+                <div class="caption">Fırında Sütlaç</div>
+            </div>
+            <div class="ingredients">
+                <h3>İçindekiler:</h3>
+                <ul>
+                    <li>1 litre süt</li>
+                    <li>1 su bardağı şeker</li>
+                    <li>Yarım su bardağı pirinç</li>
+                    <li>3 yemek kaşığı buğday nişastası</li>
+                    <li>1 paket vanilya</li>
+                    <li>2 su bardağı su</li>
+                    <li>Yarım su bardağı süt (nişastayı açmak için)</li>
+                </ul>
+            
+<div class="instructions">
+                <h3>Yapılışı:</h3>
+                <p>Fırında sütlaç için öncelikle pirinci haşlayalım. Pirinçleri güzelce yıkadıktan sonra 2 su bardağı su ile pirinçler yumuşayıp pişene kadar haşlayın. Çok az sulu kalacaktır.</p>
+                <p>Diğer malzemeleri ekleyelim ve sütlacı pişirelim. Haşlanan pirinçlerin üzerine sütü, vanilyayı ilave edip kaynatın.</p>
+                <p>Bu arada bir kap içerisinde nişasta ve sütü (suyu) pürüzsüz kıvam alıncaya kadar karıştırın.</p>
+                <p>Karışım kaynamaya başlayınca şekeri ve yarım su bardağı sütle karıştırdığınız 3 yemek kaşığı buğday nişastasını ilave ediniz. 10-15 dk. daha kaynatıp ocağın altını kapatın.</p>
+                <p>Sütlaçları fırına sürelim. Fırın için uygun ısıya dayanıklı sütlaç kaselerine sütlaçlarınızı paylaştırın. Tepsinize soğuk su doldurun ve sütlaç kaplarını fırın tepsinize dizin (Tepsideki su sütlaç kaplarının yarısına kadar gelecek).</p>
+                <p>Tepsiyi fırınınızın en üst rafına yerleştirin. 180 derecede, sütlaçlarınız kızarana kadar fırınlayın. Afiyet olsun!</p>
+            </div>
+</div>
+        </div>
+
+        <div class="image-container">
+            <div class="image">
+                <img src="https://i.nefisyemektarifleri.com/2019/11/12/firinda-sutlac-yapilisi-8.jpg" alt="Fırında Sütlaç" alt="Domates Çorbası" alt="Fırında Sütlaç">
+                <div class="caption">Fırında Sütlaç</div>
+            </div>
+            <div class="ingredients">
+                <h3>İçindekiler:</h3>
+                <ul>
+                    <li>1 litre süt</li>
+                    <li>1 su bardağı şeker</li>
+                    <li>Yarım su bardağı pirinç</li>
+                    <li>3 yemek kaşığı buğday nişastası</li>
+                    <li>1 paket vanilya</li>
+                    <li>2 su bardağı su</li>
+                    <li>Yarım su bardağı süt (nişastayı açmak için)</li>
+                </ul>
+            
+<div class="instructions">
+                <h3>Yapılışı:</h3>
+                <p>Fırında sütlaç için öncelikle pirinci haşlayalım. Pirinçleri güzelce yıkadıktan sonra 2 su bardağı su ile pirinçler yumuşayıp pişene kadar haşlayın. Çok az sulu kalacaktır.</p>
+                <p>Diğer malzemeleri ekleyelim ve sütlacı pişirelim. Haşlanan pirinçlerin üzerine sütü, vanilyayı ilave edip kaynatın.</p>
+                <p>Bu arada bir kap içerisinde nişasta ve sütü (suyu) pürüzsüz kıvam alıncaya kadar karıştırın.</p>
+                <p>Karışım kaynamaya başlayınca şekeri ve yarım su bardağı sütle karıştırdığınız 3 yemek kaşığı buğday nişastasını ilave ediniz. 10-15 dk. daha kaynatıp ocağın altını kapatın.</p>
+                <p>Sütlaçları fırına sürelim. Fırın için uygun ısıya dayanıklı sütlaç kaselerine sütlaçlarınızı paylaştırın. Tepsinize soğuk su doldurun ve sütlaç kaplarını fırın tepsinize dizin (Tepsideki su sütlaç kaplarının yarısına kadar gelecek).</p>
+                <p>Tepsiyi fırınınızın en üst rafına yerleştirin. 180 derecede, sütlaçlarınız kızarana kadar fırınlayın. Afiyet olsun!</p>
+            </div>
+</div>
+        </div>
+
+    </div>
+
+    <div class="right">
+        <div class="small-images">
+            <div class="small-box">
+                <div class="image">
+                    <img src="https://i.nefisyemektarifleri.com/2024/05/17/domates-corbasi-videolu-12.jpg" alt="Domates Çorbası" alt="Domates Çorbası">
+                    <div class="caption">Domates Çorbası</div>
+                </div>
+                <div class="ingredients">
+                    <h3>İçindekiler:</h3>
+                    <ul>
+                        <li>5 adet olgun domates</li>
+                        <li>2 yemek kaşığı tereyağı</li>
+                        <li>3 yemek kaşığı un</li>
+                        <li>1 litre sıcak su</li>
+                        <li>1 su bardağı süt</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="small-box">
+                <div class="image">
+                    <img src="https://i.nefisyemektarifleri.com/2024/05/17/domates-corbasi-videolu-12.jpg" alt="Domates Çorbası" alt="Domates Çorbası">
+                    <div class="caption">Domates Çorbası</div>
+                </div>
+                <div class="ingredients">
+                    <h3>İçindekiler:</h3>
+                    <ul>
+                        <li>5 adet olgun domates</li>
+                        <li>2 yemek kaşığı tereyağı</li>
+                        <li>3 yemek kaşığı un</li>
+                        <li>1 litre sıcak su</li>
+                        <li>1 su bardağı süt</li>
+                    </ul>
+                </div>
+            </div><div class="small-box">
+                <div class="image">
+                    <img src="https://i.nefisyemektarifleri.com/2024/05/17/domates-corbasi-videolu-12.jpg" alt="Domates Çorbası" alt="Domates Çorbası">
+                    <div class="caption">Domates Çorbası</div>
+                </div>
+                <div class="ingredients">
+                    <h3>İçindekiler:</h3>
+                    <ul>
+                        <li>5 adet olgun domates</li>
+                        <li>2 yemek kaşığı tereyağı</li>
+                        <li>3 yemek kaşığı un</li>
+                        <li>1 litre sıcak su</li>
+                        <li>1 su bardağı süt</li>
+                    </ul>
+                </div>
+           
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <div class="big-image">
+        <h2>EN POPÜLER YEMEK</h2>
+        <h2>Kazandibi</h2>
+        <img src="https://i.nefisyemektarifleri.com/2017/09/26/kazandibi-tarifi-enfes.jpg" alt="Kazandibi" style="width: 20%; height: auto; border-radius: 10px;">
+        <p>Kazandibi, Türk mutfağının en özel tatlılarından biridir. Sütlü tatlıları sevenler için mükemmel bir seçenek! Yanına bir fincan Türk kahvesi ile harika bir ikili oluşturur. Eğer henüz denemediyseniz, bu tarifi kaçırmayın!</p>
+    </div>
+</div>
+</div>
+</body>
+</html>

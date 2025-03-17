@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ana Sayfa</title>
+    <style>body {
+        font-family: Arial, sans-serif;
+        line-height: 1.5;
+        background-color: rgb(189, 162, 189);
+        color: #ffffff;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .menubox {
+        background-color: #222;
+        padding: 10px;
+        text-align: right;
+    }
+    
+    .menu {
+        color: white;
+    }
+    
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(255, 255, 255);
+        padding: 20px;
+        height: 100px;
+    }
+    
+    .logo img {
+        width: 250px;
+        height: 120px;
+        opacity: 0.8;
+        border-radius: 100%;
+    }
+    
+    .button {
+        background-color: #f0b4f6;
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 12px;
+        transition: 0.3s;
+    }
+    
+    .button:hover {
+        background-color: #45a049;
+        transform: scale(1.05);
+    }
+    
+    .navbar {
+        background-color: #333;
+        padding: 10px;
+    }
+    
+    .navbar ul {
+        display: flex;
+        list-style: none;
+        justify-content: space-around;
+    }
+    
+    .navbar ul li a {
+        color: white;
+        text-decoration: none;
+        padding: 5px 10px;
+        transition: background-color 0.3s;
+    }
+    
+    .navbar ul li a:hover {
+        background-color: #ff6600;
+        border-radius: 5px;
+    }
+    
+    .main-container {
+        display: flex;
+        width: 100%;
+        margin-top: 20px;
+    }
+    
+    .container {
+        width: 70%;
+    }
+    
+    .sidebar {
+        width: 30%;
+        background-color: #444;
+        color: white;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    
+    .row {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+    .row2{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        background-color: #444;
+    
+    }
+    .row2 img{
+        height:300px;
+        width: 300px;
+    }
+    
+    .col {
+        width: 30%;
+        background-color: #555;
+        padding: 15px;
+        text-align: center;
+        border-radius: 5px;
+    }
+    
+    .img {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+    }
+    
+    
+    .sidebar-item {
+        display: flex;
+        align-items: center;
+        background-color: #666;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+    }
+    
+    .sidebar-item img {
+        width: 60px;
+        height: 60px;
+        border-radius: 5px;
+        margin-right: 10px;
+    }
+    
+    .sidebar-text h3 {
+        margin: 0;
+        font-size: 16px;
+    }
+    
+    .sidebar-text p {
+        margin: 0;
+        font-size: 14px;
+        color: #ddd;
+    }
+    </style>
+    
+</head>
+
+<body>
+    <div class="menubox">
+        <span class="menu">Anasayfa, Türkçe, İngilizce, Rusça</span>
+    </div>    
+
+    <header class="header">
+        <div class="logo">
+            <a href="index.html"><img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.cantamgroup.com%2Fcantamlogo.png&f=1&nofb=1&ipt=b1209a4ee1add66fed1a69dffc4fff9701ed3075026028079d1ec0571e510a49&ipo=images" alt="Cantam logo"></a>
+        </div>
+        <div class="buttons">
+            <button class="button">İletişim</button>
+            <button class="button">Giriş Yap</button>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="yeni.html">Yeni Ürünler</a></li>
+            <li><a href="coksatan.html">Çok Satanlar</a></li>
+            <li><a href="indirim.html">İndirimdekiler</a></li>
+            <li><a href="kategori.html">Kategoriler</a></li>
+        </ul>
+    </nav>
+
+    <div class="main-container">
+        
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <img src="https://cdn2.sorsware.com/perspective/ContentImages/Product/2023-2024-sonbahar-kis/24180236-C308/canta-0236_24180236-c308_lacivert-lacivert_1_buyuk.jpg" class="img" alt="Kırmızı Çanta">
+                    <h3>Kırmızı Çanta</h3>
+                </div>
+                <div class="col">
+                    <img src="https://cdn2.sorsware.com/perspective/ContentImages/Product/2023-2024-sonbahar-kis/24180236-C308/canta-0236_24180236-c308_lacivert-lacivert_1_buyuk.jpg" class="img" alt="Mavi Çanta">
+                    <h3>Mavi Çanta</h3>
+                </div>
+                <div class="col">
+                    <img src="https://cdn2.sorsware.com/perspective/ContentImages/Product/2023-2024-sonbahar-kis/24180236-C308/canta-0236_24180236-c308_lacivert-lacivert_1_buyuk.jpg" class="img" alt="Siyah Çanta">
+                    <h3>Siyah Çanta</h3>
+                </div>
+            </div>
+            <div class="row2">
+                <img src="https://cdn2.sorsware.com/perspective/ContentImages/Product/2023-2024-sonbahar-kis/24180236-C308/canta-0236_24180236-c308_lacivert-lacivert_1_buyuk.jpg" alt="El yapımı çanta">
+                
+               
+                <p>El yapımı hasır çantalarımız, doğallığı ve şıklığı bir araya getirerek her kombininize zamansız bir dokunuş katıyor. 
+                   Dayanıklı ve hafif yapısıyla günlük kullanıma uygun olan çantalarımız, hem plajda hem şehirde stilinizi tamamlamak için ideal.</p>
+            </div>
+        </div>
+
+        
+        <div class="sidebar">
+            <h2>Önerilen Ürünler</h2>
+            <div class="sidebar-item">
+                <img src="https://cdn2.sorsware.com/perspective/ContentImages/Product/2023-2024-sonbahar-kis/24180236-C308/canta-0236_24180236-c308_lacivert-lacivert_1_buyuk.jpg" alt="Yan çanta">
+                <div class="sidebar-text">
+                    <h3>Örnek Ürün 1</h3>
+                    <p>Deneme Açıklama</p>    
+                </div>
+            </div>
+            <div class="sidebar-item">
+                <img src="https://cdn2.sorsware.com/perspective/ContentImages/Product/2023-2024-sonbahar-kis/24180236-C308/canta-0236_24180236-c308_lacivert-lacivert_1_buyuk.jpg" alt="Yan çanta">
+                <div class="sidebar-text">
+                    <h3>Örnek Ürün 2</h3>
+                    <p>Deneme Açıklama</p>    
+                </div>
+            </div>
+            <div class="sidebar-item">
+                <img src="https://cdn2.sorsware.com/perspective/ContentImages/Product/2023-2024-sonbahar-kis/24180236-C308/canta-0236_24180236-c308_lacivert-lacivert_1_buyuk.jpg" alt="Yan çanta">
+                <div class="sidebar-text">
+                    <h3>Örnek Ürün 3</h3>
+                    <p>Deneme Açıklama</p>    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

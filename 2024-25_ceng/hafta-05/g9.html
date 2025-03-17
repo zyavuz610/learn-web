@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Yazılım Dünyası</title>
+    <style>
+        /* Temel stil */
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        /* Buton tarzı stil */
+        .button {
+            background-color: #320e54;
+            color: white;
+            padding: 12px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 8px;
+            margin: 5px;
+            cursor: pointer;
+        }
+
+            .button:hover {
+                background-color: black;
+            }
+
+        /* Alt menü için buton stili */
+        ul ul {
+            display: none;
+            position: absolute;
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        li:hover > ul {
+            display: block;
+        }
+
+        ul ul li {
+            display: block;
+            margin-left: 20px;
+        }
+
+        /* Yeni stil */
+        .content-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .content-section {
+            width: 30%;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+            .content-section img {
+                max-width: 100%;
+                height: auto;
+            }
+
+        .image-list {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+            .image-list img {
+                margin: 5px;
+            }
+
+        /* Flex düzeni için */
+        .main-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            margin-bottom: 30px;
+        }
+
+        .side-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+            .side-container .side-item {
+                width: 30%;
+                margin-right: 10px;
+                text-align: center;
+            }
+    </style>
+</head>
+<body>
+    <div style="background-color: #a461e3; ">
+        <nav style="display: flex; justify-content: right; margin-right: 10px;">
+            <a href="#l" style="margin-right: 30px; color: white; text-decoration: none;">Anasayfa</a>
+            <a href="#" style="margin-right: 30px; color: white; text-decoration: none;">Türkçe</a>
+            <a href="#" style="color: white; text-decoration: none;">English</a>
+        </nav>
+    </div>
+    <div>
+        <div style="height: 260px; display: flex; align-items: center; justify-content: start; background: linear-gradient(to right, #7d4bad, #d6bdee)">
+            <img src="https://picsum.photos/210/200" alt="logo" style="margin-left: 30px;" />
+            <h1 style="color: white; text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black; margin-left: 20px;">Yazılım Dünyası</h1>
+        </div>
+    </div>
+    <div>
+        <nav style="padding: 10px;">
+            <ul style="display: flex; justify-content: center;">
+                <li>
+                    <a href="#" class="button">Hizmetler</a>
+                    <ul>
+                        <li><a href="#" class="button">Web Tasarım</a></li>
+                        <li><a href="#" class="button">Grafik Tasarım</a></li>
+                        <li><a href="#" class="button">Görüntü İşleme</a></li>
+                    </ul>
+                </li>
+                <li><a href="HTMLPage2.html" class="button">Proje Bilgisi</a></li>
+                <li><a href="HTMLPage3.html" class="button">Öğrenci Grubu Bilgileri</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="main-container">
+ 
+
+        <div class="side-container">
+            <div class="side-item">
+                <div class="content-container" style="background-color: #ceb0ea ">
+                    <div class="content-section">
+                        <img src="https://picsum.photos/200/200" alt="Resim 1">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultrices sapien sit amet congue vehicula.</p>
+                    </div>
+                    <div class="content-section">
+                        <img src="https://picsum.photos/200/200" alt="Resim 2">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultrices sapien sit amet congue vehicula.</p>
+                    </div>
+                    <div class="content-section">
+                        <img src="https://picsum.photos/200/200" alt="Resim 3">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultrices sapien sit amet congue vehicula.</p>
+                    </div>
+                </div>
+                <br />
+                <img src="https://picsum.photos/210/200" alt="Resim 4" />
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            </div>
+            <div class="side-item" style="background-color: #af80db; padding: 15px;" >
+                <table>
+                    <tr>
+                        <td>
+                            <img src="https://picsum.photos/100/150" alt="Resim 5" />
+                        </td>
+                        <td>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </td>
+                    <tr>
+                        <td>
+                            <img src="https://picsum.photos/100/150" alt="Resim 6" />
+                        </td>
+
+                        <td>
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="https://picsum.photos/100/150" alt="Resim 7" />
+                        </td>
+                        <td>
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </td>
+                        <tr>
+                        <td>
+                            <img src="https://picsum.photos/100/150" alt="Resim 8" />
+                            </td>
+                        <td>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
