@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="content">
+        <p id="par1">
+
+        </p>
+        <button id="myButton">
+            Tıklayın
+        </button>
+        <div class="resim">
+            <img src="" id="at" alt="">
+            <button id="baslat">Başlat</button>
+        </div>
+
+    </div>
+    <script>
+        var count = 0;
+
+        function counter() {
+            count++;
+            var par1 = document.getElementById("par1");
+            par1.innerHTML = "Sayaç: " + count;
+        }
+
+        var button = document.getElementById("myButton");
+        button.addEventListener("click", function() {
+            setInterval(counter, 1000); // 1 saniye sonra counter fonksiyonunu çağır
+        });
+    </script>
+</body>
+</html>
